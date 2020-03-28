@@ -1,0 +1,32 @@
+baseURL = "https://lols.lawver.net"
+languageCode = "en-us"
+title = "LOLS"
+theme = "ananke"
+paginate = 25
+
+[params]
+  description = "Things that make me laugh."
+  recent_posts_number=25
+  custom_css = ["css/nav.css", "css/gallery.css", "css/header.css", "css/tag-list.css"]
+  #featured_image = "/photos/site/cindy_is_awesome.jpg"
+
+# [imaging]
+# quality=75
+# resize="800x"
+
+[taxonomies]
+tags = "tags"
+
+[[menu.main]]
+  name = "Browse by Tag"
+  identifier = "tags"
+  url = "/tags/"
+  weight = 100
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = true
+  [[related.indices]]
+  name = "date"
+  weight = 100

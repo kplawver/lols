@@ -1,0 +1,8 @@
+#!/bin/sh
+USER=kplawver
+HOST=chandelier.dreamhost.com
+DIR=lols.lawver.net/   # might sometimes be empty!
+
+hugo && rsync -avz --delete public/ ${USER}@${HOST}:~/${DIR}
+
+exit 0
