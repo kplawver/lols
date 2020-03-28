@@ -1,19 +1,28 @@
-# quARTantined
+# LOLs
 
-A hastily thought up idea for a virtual museum of art hastily produced while self-quarantining from COVID-19.
+A Saturday morning project while social distancing during COVID-19 to turn my stupid collection of memes collected over the last decade+ into a garbage website where you can see them, browse by tags, and send them to various social things and have them show up correctly as a preview.
 
-## Contributing art
+It's... not done.
 
-See the [Share Your Art](https://quartantined.me/share/) page on the site for instructions on how to submit your art.  
+Since this is just a toy, it's completely open source, so feel free to grab it, delete everything under `posts` and go to town creating your own stupid thing.
 
 ## Contributing Code
 
 If you'd like to help make the site prettier, more accessible, easier to use or other improvements, that would be swell!  I'm definitely accepting pull requests for non-invasive, non-advertising, non-evil kinds of things.
 
-### Setup
+## Setup
 
 * This thing is built on [Hugo](https://gohugo.io), so you'll need to install it. That's pretty easy.
 * Once you've install hugo, you can see things by running `hugo serve -D` and then pointing your favorite browser to [ye olde localhost](http://localhost:1313)
+
+### Importing Images
+
+If you already have a directory full of images, and have ruby installed, I wrote a thing that will turn a directory (even if it has a million sub-directories) into posts:  
+
+* Open up `scripts/import.rb`
+* Change the `ENV['IMPORT_PATH']` value to the directory on your computer that holds your treasured images.
+* From the main lols directory, run `ruby scripts/import.rb` and wait.
+* Now your posts directory should be absolutely _stuffed_ with stuff!
 
 ## Cleanup
 
