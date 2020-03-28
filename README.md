@@ -6,6 +6,8 @@ It's... not done.
 
 Since this is just a toy, it's completely open source, so feel free to grab it, delete everything under `posts` and go to town creating your own stupid thing.
 
+[Here's the live site](https://lols.lawver.net) if you'd like to see the not-finished product.
+
 ## Contributing Code
 
 If you'd like to help make the site prettier, more accessible, easier to use or other improvements, that would be swell!  I'm definitely accepting pull requests for non-invasive, non-advertising, non-evil kinds of things.
