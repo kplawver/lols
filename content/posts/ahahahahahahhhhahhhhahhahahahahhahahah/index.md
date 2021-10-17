@@ -5,4 +5,5 @@ draft: false
 tags:
 - laughing
 - lol
+- gif
 ---
