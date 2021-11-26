@@ -2,4 +2,8 @@
 title: "Wharrgarbl"
 date: 2020-03-28T07:53:14-04:00
 draft: false
+tags:
+- animals
+- dogs
+- demotivator
 ---
