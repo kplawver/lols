@@ -16,7 +16,7 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
-{%- for image in page.url | postImages %}
+{%- for image in page.url | postImages(alt) %}
 <figure class="post-image">
 	<img src="{{ image.url }}" alt="{{ image.alt or image.filename }}" loading="lazy" decoding="async">
 </figure>

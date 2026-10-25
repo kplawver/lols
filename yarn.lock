@@ -1000,7 +1000,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^4.1.0, js-yaml@npm:^4.1.1":
+"js-yaml@npm:^4, js-yaml@npm:^4.1.0, js-yaml@npm:^4.1.1":
   version: 4.3.2
   resolution: "js-yaml@npm:4.3.2"
   dependencies:
@@ -1071,6 +1071,7 @@ __metadata:
     "@11ty/eleventy-plugin-syntaxhighlight": "npm:^5.0.2"
     "@zachleat/heading-anchors": "npm:^1.0.5"
     cross-env: "npm:^10.1.0"
+    js-yaml: "npm:^4"
     luxon: "npm:^3.7.2"
     prismjs: "npm:^1.30.0"
     zod: "npm:^4.4.3"

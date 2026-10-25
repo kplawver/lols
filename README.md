@@ -24,9 +24,30 @@ Each meme lives in its own bundle under `content/blog/<slug>/`:
 ```
 content/blog/<slug>/
 ├── index.md          # front matter: title, date, tags
-└── <slug>.gif        # the meme itself (gif/jpg/jpeg/png/mp4)
+└── <slug>.gif        # the meme itself (gif/jpg/jpeg/png/webp/mp4)
 ```
 
 Post bodies are empty on purpose — the `_config/filters.js` `postImages` filter picks up every image in the bundle and renders it. Posts are published at `/posts/<slug>/` (the same URLs the old Hugo site used).
 
 Tags are plain front matter; each gets a page at `/tags/<tag>/`.
+
+
+## Importing images
+
+Drop image files (`.gif`, `.jpg`, `.jpeg`, `.png`, `.webp`) into `import/` and run:
+
+```sh
+yarn import:images                          # default model: gemma4:e4b
+yarn import:images -- --model gemma4:26b    # or any installed vision model
+```
+
+Each file becomes a post at `content/blog/<slug>/` (slug = filename stem, e.g. `zebra_sure_can_dance` → title "Zebra sure can dance"). A local [ollama](http://localhost:11434) vision model generates tags and alt text; the model must be vision-capable. If tagging quality is too weak, try a larger installed model (`gemma4:26b`, `ornith-1.5:35b`). Imported files are consumed (moved into the post bundle, resized so no side exceeds 800px). `--dry-run` prints the plan without touching anything. Files are never overwritten — rename the source file to import under a new slug.
+
+To fill in missing tags/alt text on existing posts:
+
+```sh
+yarn backfill -- --limit 50   # first 50 posts that need work
+yarn backfill -- --force      # redo posts that already have tags/alt
+```
+
+Note: ollama reads only the first frame of GIFs, so tags/alt describe that frame.
