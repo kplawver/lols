@@ -1,0 +1,494 @@
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img{
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+video,
+iframe {
+	width: 100%;
+	height: auto;
+}
+iframe {
+	aspect-ratio: 16/9;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+
+#skip-link {
+	text-decoration: none;
+	background: var(--background-color);
+	color: var(--text-color);
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--color-gray-90);
+	border-radius: 2px;
+}
+
+/* Prevent visually-hidden skip link fom pushing content around when focused */
+#skip-link.visually-hidden:focus {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	/* Ensure it is positioned on top of everything else when it is shown */
+	z-index: 999;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	flex-grow: 1;
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	gap: .5em 1em;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	counter-reset: start-from var(--postlist-index);
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+
+/* ============================================================
+   Welcome to the Dumb Dumb House — phase 2 redesign overrides
+   Deliberately garish: magenta body, yellow list, cyan panels.
+   Contrast rule: bright backgrounds always get black text (#000 on
+   lime 15.3:1, cyan 16.8:1, yellow 19.6:1, orange 7.2:1, magenta
+   6.7:1) — garish colors stay as backgrounds/borders, never text on
+   bright fills. All pairs meet WCAG AA (≥ 4.5:1 normal text).
+   ============================================================ */
+
+body {
+	background: #FF00FF;
+	font-family: "Life Savers", "Comic Sans MS", "Comic Neue", cursive;
+	color: #000000;
+}
+
+header, footer, main {
+	background: #FF00FF;
+}
+
+/* Links on the magenta body (tag pages, post pages, footer):
+   base-blog's link palette dips below AA on magenta — re-anchor it. */
+a[href] {
+	color: #000000;
+	text-decoration: underline wavy #FFFF00;
+	text-decoration-thickness: 2px;
+}
+a[href]:visited {
+	color: #17050F; /* 6.3:1 on #FF00FF */
+}
+a[href]:hover,
+a[href]:active {
+	color: #17050F;
+	background: #FFFF00;
+}
+
+/* Meta text (dates, list counters) uses #333, only 4.0:1 on magenta */
+.postlist-date,
+.postlist-item:before,
+.post-metadata time {
+	color: #000000;
+}
+
+.nav {
+	justify-content: center;
+}
+.nav-item a {
+	background: #FFFF00;
+	color: #000000; /* 19.6:1 */
+	border: 3px solid #FF00FF;
+	padding: 0.25em 0.5em;
+}
+.nav-item a:hover {
+	transform: rotate(-2deg);
+}
+
+.home-link {
+	/* Page title — Barrio (Google Fonts) */
+	font-family: "Barrio", "Comic Sans MS", cursive;
+	color: #000000; /* 15.3:1 */
+	padding: 0.25em 0.5em;
+	border: 3px solid #FF6600;
+	font-size: 1.75em;
+	font-weight: 800;
+}
+
+h1, h2, h3 {
+	/* Smaller titles — Barriecito (Google Fonts) */
+	font-family: "Barriecito", "Comic Sans MS", cursive;
+	color: #000000;
+	background: #00FF00;
+	display: inline-block;
+	padding: 0.1em 0.4em;
+	border: 3px solid #FF6600;
+	transform: rotate(-1deg);
+}
+
+/* Two-column grid: left = alphabetical post list, right = post view + tags */
+.dumbdumbhouse {
+	display: grid;
+	grid-template-columns: minmax(260px, 30%) 1fr;
+	gap: 1.5rem;
+	align-items: start;
+	margin-top: 1rem;
+}
+
+.dumb-list {
+	background: #FFFF00;
+	border: 4px solid #000000;
+	padding: 1rem;
+	max-height: 85vh;
+	overflow-y: auto;
+}
+.dumb-list-items {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.dumb-list-items li {
+	margin: 0.15rem 0;
+}
+.dumb-list-items a {
+	/* Individual entries — Barriecito (Google Fonts) */
+	font-family: "Barriecito", "Comic Sans MS", cursive;
+	color: #000000; /* 19.6:1 on yellow */
+	text-decoration: underline wavy #FF00FF;
+	font-weight: 700;
+}
+.dumb-list-items a:hover {
+	background: #00FF00;
+	color: #000000; /* 15.3:1 */
+	display: inline-block;
+	transform: rotate(-1deg);
+}
+.dumb-list-items a.dumb-selected,
+.dumb-list-items a.dumb-selected:hover {
+	background: #00FF00;
+	color: #000000;
+}
+
+.dumb-view > * {
+	background: #00FFFF;
+	border: 4px solid #000000;
+	padding: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.post-view article .post-metadata,
+.post-view article .post-image {
+	margin: 1rem 0;
+}
+
+.tag-cloud, .tag-cloud-home ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+.tag-cloud-item {
+	margin: 0;
+}
+.tag-cloud-item:nth-child(4n+1) .post-tag { background: #00FF00; }
+.tag-cloud-item:nth-child(4n+2) .post-tag { background: #00FFFF; }
+.tag-cloud-item:nth-child(4n+3) .post-tag { background: #FFFF00; }
+.tag-cloud-item:nth-child(4n+4) .post-tag { background: #FF6600; }
+.tag-cloud .post-tag {
+	color: #000000; /* 7.2:1 on the darkest pill (orange), 15–20:1 on the rest */
+	border: 2px solid #000000;
+	border-radius: 999px;
+	padding: 0.15em 0.6em;
+	text-decoration: none;
+	font-style: normal;
+}
+.tag-count {
+	font-size: 0.75em;
+	font-weight: 800;
+}
+
+.links-nextprev {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 0;
+	margin: 1.5rem 0 0;
+}
+.links-nextprev button {
+	background: #00FF00;
+	color: #000000; /* 15.3:1 */
+	border: 3px solid #FF00FF;
+	padding: 0.5em 1em;
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 1rem;
+	cursor: pointer;
+}
+.links-nextprev button:hover {
+	transform: rotate(-1deg);
+}
+
+/* postslist now renders forward (alphabetical archive, newest-first tag
+   pages) — count up from 1 instead of down from the old reversed order. */
+.postlist-item {
+	counter-increment: start-from 1;
+}
+
+/* Single column under 768px: list first, then post view/tags */
+@media (max-width: 767px) {
+	.dumbdumbhouse {
+		grid-template-columns: 1fr;
+	}
+	.dumb-list {
+		max-height: 40vh;
+	}
+}

@@ -1,0 +1,118 @@
+---js
+const eleventyNavigation = {
+	key: "Home",
+	order: 1
+};
+---
+<div class="dumbdumbhouse">
+	<section class="dumb-list" aria-label="All posts, alphabetical">
+		<h2>The Dumb Dumbs</h2>
+		<ul class="dumb-list-items">
+			{%- for post in collections.postsAlpha %}
+			<li><a href="{{ post.url }}" data-post-link>{{ post.data.title }}</a></li>
+			{%- endfor %}
+		</ul>
+	</section>
+
+	<section class="dumb-view" aria-label="Post view and tags">
+		<div class="post-view" data-post-view hidden>
+			<article data-post-article></article>
+			<ul class="links-nextprev" data-post-nav hidden>
+				<li class="links-nextprev-prev"><button type="button" data-nav-prev>← Previous<br><span data-nav-prev-title></span></button></li>
+				<li class="links-nextprev-next"><button type="button" data-nav-next>Next →<br><span data-nav-next-title></span></button></li>
+			</ul>
+			<p><button type="button" data-post-close>✕ Close</button></p>
+		</div>
+
+		<div class="tag-cloud-home">
+			<h2>Tags</h2>
+			<ul class="tag-cloud">
+				{%- for tag in collections | getKeys | filterTagList | sortAlphabetically %}
+				{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+				<li class="tag-cloud-item"><a href="{{ tagUrl }}" class="post-tag">{{ tag }} <span class="tag-count">{{ collections[tag].length }}</span></a></li>
+				{%- endfor %}
+			</ul>
+		</div>
+	</section>
+</div>
+
+<script>
+(() => {
+	const view = document.querySelector("[data-post-view]");
+	const article = view.querySelector("[data-post-article]");
+	const nav = view.querySelector("[data-post-nav]");
+	const prevBtn = view.querySelector("[data-nav-prev]");
+	const nextBtn = view.querySelector("[data-nav-next]");
+	const prevTitle = view.querySelector("[data-nav-prev-title]");
+	const nextTitle = view.querySelector("[data-nav-next-title]");
+	const list = document.querySelector(".dumb-list-items");
+	const postUrlRE = /^\/posts\/[^/]+\/?$/;
+
+	// Alphabetical ordering source of truth, from the rendered list itself.
+	const ordered = [...list.querySelectorAll("a[data-post-link]")].map(a => ({ url: new URL(a.href).pathname, title: a.textContent }));
+	const byUrl = new Map(ordered.map(p => [p.url, p]));
+
+	function neighbors(url) {
+		const i = ordered.findIndex(p => p.url === url);
+		return { prev: i > 0 ? ordered[i - 1] : null, next: i >= 0 && i < ordered.length - 1 ? ordered[i + 1] : null };
+	}
+
+	function markSelected(url) {
+		list.querySelectorAll("a").forEach(a => a.classList.toggle("dumb-selected", new URL(a.href).pathname === url));
+	}
+
+	function renderNav(url) {
+		const { prev, next } = neighbors(url);
+		prevBtn.hidden = !prev;
+		nextBtn.hidden = !next;
+		if (prev) { prevTitle.textContent = prev.title; prevBtn.dataset.target = prev.url; }
+		if (next) { nextTitle.textContent = next.title; nextBtn.dataset.target = next.url; }
+		nav.hidden = !prev && !next;
+	}
+
+	async function showPost(url, push) {
+		try {
+			const res = await fetch(url);
+			if (!res.ok) throw new Error(res.status);
+			const doc = new DOMParser().parseFromString(await res.text(), "text/html");
+			const main = doc.querySelector("main");
+			// The standalone post page has its own prev/next bar; drop it so
+			// only the post-view's button nav remains.
+			main?.querySelector(".links-nextprev")?.remove();
+			article.replaceChildren(...(main ? main.childNodes : []));
+		} catch (err) {
+			location.href = url; // network/parse failure: fall back to full navigation
+			return;
+		}
+		view.hidden = false;
+		renderNav(url);
+		markSelected(url);
+		view.scrollIntoView({ behavior: "smooth", block: "nearest" });
+		if (push) history.pushState({ post: url }, "", url);
+	}
+
+	document.addEventListener("click", (ev) => {
+		const link = ev.target.closest("a[data-post-link]");
+		if (link) {
+			ev.preventDefault();
+			showPost(new URL(link.href).pathname, true);
+			return;
+		}
+		const btn = ev.target.closest("[data-nav-prev], [data-nav-next]");
+		if (btn && btn.dataset.target) showPost(btn.dataset.target, true);
+		if (ev.target.closest("[data-post-close]")) {
+			view.hidden = true;
+			markSelected(null);
+			history.pushState({}, "", "/");
+		}
+	});
+
+	addEventListener("popstate", () => {
+		const path = location.pathname;
+		if (postUrlRE.test(path)) showPost(path, false);
+		else { view.hidden = true; markSelected(null); }
+	});
+
+	if (postUrlRE.test(location.pathname)) showPost(location.pathname, false);
+})();
+</script>

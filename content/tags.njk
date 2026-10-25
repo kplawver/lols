@@ -1,0 +1,14 @@
+---js
+const eleventyNavigation = {
+	key: "Tags",
+	order: 3
+};
+---
+<h1>Tags</h1>
+
+<ul class="tag-cloud">
+{% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
+	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<li class="tag-cloud-item"><a href="{{ tagUrl }}" class="post-tag">{{ tag }} <span class="tag-count">{{ collections[tag].length }}</span></a></li>
+{% endfor %}
+</ul>
