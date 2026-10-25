@@ -1,32 +1,32 @@
-# LOLs
+# LOLS
 
 A Saturday morning project while social distancing during COVID-19 to turn my stupid collection of memes collected over the last decade+ into a garbage website where you can see them, browse by tags, and send them to various social things and have them show up correctly as a preview.
 
-It's... not done.
+Since this is just a toy, it's completely open source, so feel free to grab it, delete everything under `content/blog` and go to town creating your own stupid thing.
 
-Since this is just a toy, it's completely open source, so feel free to grab it, delete everything under `posts` and go to town creating your own stupid thing.
-
-[Here's the live site](https://lols.lawver.net) if you'd like to see the not-finished product.
-
-## Contributing Code
-
-If you'd like to help make the site prettier, more accessible, easier to use or other improvements, that would be swell!  I'm definitely accepting pull requests for non-invasive, non-advertising, non-evil kinds of things.
+[Here's the live site](https://lols.lawver.net).
 
 ## Setup
 
-* This thing is built on [Hugo](https://gohugo.io), so you'll need to install it. That's pretty easy.
-* Once you've install hugo, you can see things by running `hugo serve -D` and then pointing your favorite browser to [ye olde localhost](http://localhost:1313)
+The site is built with [Eleventy](https://www.11ty.dev). Toolchain is managed with [mise](https://mise.jdx.dev) (see `.mise.toml`: Node 24, Yarn 4):
 
-### Importing Images
+```sh
+mise install          # install pinned node + yarn
+yarn install          # install dependencies
+yarn start            # dev server at http://localhost:8080
+yarn build            # production build into _site/
+```
 
-If you already have a directory full of images, and have ruby installed, I wrote a thing that will turn a directory (even if it has a million sub-directories) into posts:  
+## Content
 
-* Open up `scripts/import.rb`
-* Change the `ENV['IMPORT_PATH']` value to the directory on your computer that holds your treasured images.
-* From the main lols directory, run `ruby scripts/import.rb` and wait.
-* Now your posts directory should be absolutely _stuffed_ with stuff!
+Each meme lives in its own bundle under `content/blog/<slug>/`:
 
-## Cleanup
+```
+content/blog/<slug>/
+├── index.md          # front matter: title, date, tags
+└── <slug>.gif        # the meme itself (gif/jpg/jpeg/png/mp4)
+```
 
-* I imagine the repo will get fairly large after a while, so you'll probably want to run `hugo --gc` every once in a while, *especially* if you're messing around with resizing images.
-* We don't store the `public` or `resources` directories in git because they're generated, so the first time you run things, it might take a sec to resize all the images.  If you're done playing around, you can delete those two directories to clean up hard drive space.
+Post bodies are empty on purpose — the `_config/filters.js` `postImages` filter picks up every image in the bundle and renders it. Posts are published at `/posts/<slug>/` (the same URLs the old Hugo site used).
+
+Tags are plain front matter; each gets a page at `/tags/<tag>/`.

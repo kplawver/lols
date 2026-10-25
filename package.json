@@ -1,0 +1,30 @@
+{
+	"name": "lols",
+	"version": "1.0.0",
+	"description": "Things that make me laugh.",
+	"type": "module",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"start": "npx @11ty/eleventy --serve --quiet",
+		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"license": "MPL-2.0",
+	"packageManager": "yarn@4.18.1",
+	"devDependencies": {
+		"@11ty/eleventy": "^3.1.7",
+		"@11ty/eleventy-img": "^7.0.0",
+		"@11ty/eleventy-navigation": "^1.0.5",
+		"@11ty/eleventy-plugin-rss": "^3.0.0",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+		"cross-env": "^10.1.0",
+		"luxon": "^3.7.2",
+		"prismjs": "^1.30.0",
+		"zod": "^4.4.3"
+	},
+	"dependencies": {
+		"@zachleat/heading-anchors": "^1.0.5"
+	}
+}
