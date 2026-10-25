@@ -259,7 +259,7 @@ header {
 }
 .postlist-link {
 	font-size: 1.1875em; /* 19px /16 */
-	font-weight: 700;
+	font-weight: 400;
 	flex-basis: calc(100% - 1.5rem);
 	padding-left: .25em;
 	padding-right: .5em;
@@ -355,7 +355,10 @@ a[href]:active {
 	transform: rotate(-2deg);
 }
 
-.home-link {
+/* Element+class so this beats the a[href] link rules above (otherwise the
+   title renders black on plum); cream on plum by default, 11.19:1. */
+a.home-link,
+a.home-link:visited {
 	/* Site title — Chango (Google Fonts) */
 	font-family: "Chango", "Sniglet", cursive;
 	color: #fbf0e2; /* 11.19:1 on plum */
@@ -406,7 +409,7 @@ h1, h2, h3 {
 .dumb-list-items a {
 	color: #000000; /* 18.66:1 on cream */
 	text-decoration: underline wavy #b86b9e;
-	font-weight: 700;
+	font-weight: 400;
 }
 .dumb-list-items a:hover {
 	background: #10593b;
