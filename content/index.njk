@@ -4,37 +4,26 @@ const eleventyNavigation = {
 	order: 1
 };
 ---
-<div class="dumbdumbhouse">
-	<section class="dumb-list" aria-label="All posts, alphabetical">
-		<h2>The Dumb Dumbs</h2>
-		<ul class="dumb-list-items">
-			{%- for post in collections.postsAlpha %}
-			<li><a href="{{ post.url }}" data-post-link>{{ post.data.title }}</a></li>
+<section class="dumb-view" aria-label="Post view and tags">
+	<div class="post-view" data-post-view hidden>
+		<article data-post-article></article>
+		<ul class="links-nextprev" data-post-nav hidden>
+			<li class="links-nextprev-prev"><button type="button" data-nav-prev>← Previous<br><span data-nav-prev-title></span></button></li>
+			<li class="links-nextprev-next"><button type="button" data-nav-next>Next →<br><span data-nav-next-title></span></button></li>
+		</ul>
+		<p><button type="button" data-post-close>✕ Close</button></p>
+	</div>
+
+	<div class="tag-cloud-home">
+		<h2>Tags</h2>
+		<ul class="tag-cloud">
+			{%- for tag in collections | getKeys | filterTagList | sortAlphabetically %}
+			{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+			<li class="tag-cloud-item"><a href="{{ tagUrl }}" class="post-tag">{{ tag }} <span class="tag-count">{{ collections[tag].length }}</span></a></li>
 			{%- endfor %}
 		</ul>
-	</section>
-
-	<section class="dumb-view" aria-label="Post view and tags">
-		<div class="post-view" data-post-view hidden>
-			<article data-post-article></article>
-			<ul class="links-nextprev" data-post-nav hidden>
-				<li class="links-nextprev-prev"><button type="button" data-nav-prev>← Previous<br><span data-nav-prev-title></span></button></li>
-				<li class="links-nextprev-next"><button type="button" data-nav-next>Next →<br><span data-nav-next-title></span></button></li>
-			</ul>
-			<p><button type="button" data-post-close>✕ Close</button></p>
-		</div>
-
-		<div class="tag-cloud-home">
-			<h2>Tags</h2>
-			<ul class="tag-cloud">
-				{%- for tag in collections | getKeys | filterTagList | sortAlphabetically %}
-				{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-				<li class="tag-cloud-item"><a href="{{ tagUrl }}" class="post-tag">{{ tag }} <span class="tag-count">{{ collections[tag].length }}</span></a></li>
-				{%- endfor %}
-			</ul>
-		</div>
-	</section>
-</div>
+	</div>
+</section>
 
 <script>
 (() => {
@@ -75,11 +64,12 @@ const eleventyNavigation = {
 			const res = await fetch(url);
 			if (!res.ok) throw new Error(res.status);
 			const doc = new DOMParser().parseFromString(await res.text(), "text/html");
-			const main = doc.querySelector("main");
-			// The standalone post page has its own prev/next bar; drop it so
-			// only the post-view's button nav remains.
-			main?.querySelector(".links-nextprev")?.remove();
-			article.replaceChildren(...(main ? main.childNodes : []));
+		// Standalone pages now carry the shared sidebar in <main>; extract
+		// only the page's own column. Drop its prev/next bar too — the
+		// post-view's button nav replaces it.
+		const pageMain = doc.querySelector("main .dumb-main");
+		pageMain?.querySelector(".links-nextprev")?.remove();
+		article.replaceChildren(...(pageMain ? pageMain.childNodes : []));
 		} catch (err) {
 			location.href = url; // network/parse failure: fall back to full navigation
 			return;

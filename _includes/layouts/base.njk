@@ -60,11 +60,18 @@
 			</nav>
 		</header>
 
-		<main id="main">
+<main id="main">
+	<div class="dumbdumbhouse">
+		<section class="dumb-list" aria-label="All posts, alphabetical">
+			{% include "dumb-list.njk" %}
+		</section>
+		<div class="dumb-main">
 			<heading-anchors>
 				{{ content | safe }}
 			</heading-anchors>
-		</main>
+		</div>
+	</div>
+</main>
 
 		<footer>
 			<p>

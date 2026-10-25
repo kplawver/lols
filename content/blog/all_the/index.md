@@ -2,8 +2,12 @@
 title: "All The"
 date: 2020-03-28T07:53:03-04:00
 draft: false
-alt: "A blonde woman in a flowing green and grey dress stands triumphantly in a bright green field against a backdrop of blue mountains."
+alt: "A woman in a black dress and white apron stands with arms outstretched in a green field with snow-capped mountains behind her, with the text 'LOOK AT ALL THE FUCKS I GIVE' overlaid in large white letters."
 tags:
-- no fucks
 - sound of music
+- roald hughes
+- meme
+- indifference
+- mountains
+- villach
 ---

@@ -1,0 +1,6 @@
+<h2>The Dumb Dumbs</h2>
+<ul class="dumb-list-items">
+	{%- for post in collections.postsAlpha %}
+	<li><a href="{{ post.url }}" data-post-link{% if post.url == page.url %} class="dumb-selected" aria-current="page"{% endif %}>{{ post.data.title }}</a></li>
+	{%- endfor %}
+</ul>
