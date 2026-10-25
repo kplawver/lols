@@ -2,4 +2,11 @@
 title: "Eff flowers and your happiness"
 date: 2020-03-28T07:53:11-04:00
 draft: false
+alt: "A person is aggressively yelling while standing in a field of yellow flowers."
+tags:
+- funny
+- dark humor
+- anger
+- flowers
+- meme
 ---
