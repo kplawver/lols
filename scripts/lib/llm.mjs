@@ -1,5 +1,5 @@
 // Shared ollama client for the import/backfill scripts.
-export const DEFAULT_MODEL = "gemma4:e4b";
+export const DEFAULT_MODEL = "qwen3.8:latest";
 export const DEFAULT_URL = "http://localhost:11434";
 
 const REQUEST_TIMEOUT_MS = 300_000;

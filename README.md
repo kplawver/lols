@@ -37,7 +37,7 @@ Tags are plain front matter; each gets a page at `/tags/<tag>/`.
 Drop image files (`.gif`, `.jpg`, `.jpeg`, `.png`, `.webp`) into `import/` and run:
 
 ```sh
-yarn import:images                          # default model: gemma4:e4b
+yarn import:images                          # default model: qwen3.8:latest
 yarn import:images -- --model gemma4:26b    # or any installed vision model
 ```
 
