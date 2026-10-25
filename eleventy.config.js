@@ -66,7 +66,7 @@ export default async function(eleventyConfig) {
 		templateData: {
 			eleventyNavigation: {
 				key: "Feed",
-				order: 4
+				order: 5
 			}
 		},
 		collection: {
@@ -99,6 +99,14 @@ export default async function(eleventyConfig) {
 
 	eleventyConfig.addShortcode("currentBuildDate", () => {
 		return (new Date()).toISOString();
+	});
+
+	// All posts, alphabetically by title — the single ordering shared by the
+	// home page list, the archive, and every post page's prev/next links.
+	eleventyConfig.addCollection("postsAlpha", function(collectionApi) {
+		return collectionApi
+			.getFilteredByTags("posts")
+			.sort((a, b) => (a.data.title || "").toLowerCase().localeCompare((b.data.title || "").toLowerCase()));
 	});
 
 	// Features to make your build faster (when you need them)

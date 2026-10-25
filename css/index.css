@@ -296,3 +296,199 @@ header {
 	margin-right: 1em;
 }
 
+
+/* ============================================================
+   Welcome to the Dumb Dumb House — phase 2 redesign overrides
+   Deliberately garish: magenta body, yellow list, cyan panels.
+   Contrast rule: bright backgrounds always get black text (#000 on
+   lime 15.3:1, cyan 16.8:1, yellow 19.6:1, orange 7.2:1, magenta
+   6.7:1) — garish colors stay as backgrounds/borders, never text on
+   bright fills. All pairs meet WCAG AA (≥ 4.5:1 normal text).
+   ============================================================ */
+
+body {
+	background: #FF00FF;
+	font-family: "Life Savers", "Comic Sans MS", "Comic Neue", cursive;
+	color: #000000;
+}
+
+header, footer, main {
+	background: #FF00FF;
+}
+
+/* Links on the magenta body (tag pages, post pages, footer):
+   base-blog's link palette dips below AA on magenta — re-anchor it. */
+a[href] {
+	color: #000000;
+	text-decoration: underline wavy #FFFF00;
+	text-decoration-thickness: 2px;
+}
+a[href]:visited {
+	color: #17050F; /* 6.3:1 on #FF00FF */
+}
+a[href]:hover,
+a[href]:active {
+	color: #17050F;
+	background: #FFFF00;
+}
+
+/* Meta text (dates, list counters) uses #333, only 4.0:1 on magenta */
+.postlist-date,
+.postlist-item:before,
+.post-metadata time {
+	color: #000000;
+}
+
+.nav {
+	justify-content: center;
+}
+.nav-item a {
+	background: #FFFF00;
+	color: #000000; /* 19.6:1 */
+	border: 3px solid #FF00FF;
+	padding: 0.25em 0.5em;
+}
+.nav-item a:hover {
+	transform: rotate(-2deg);
+}
+
+.home-link {
+	/* Page title — Barrio (Google Fonts) */
+	font-family: "Barrio", "Comic Sans MS", cursive;
+	color: #000000; /* 15.3:1 */
+	padding: 0.25em 0.5em;
+	border: 3px solid #FF6600;
+	font-size: 1.75em;
+	font-weight: 800;
+}
+
+h1, h2, h3 {
+	/* Smaller titles — Barriecito (Google Fonts) */
+	font-family: "Barriecito", "Comic Sans MS", cursive;
+	color: #000000;
+	background: #00FF00;
+	display: inline-block;
+	padding: 0.1em 0.4em;
+	border: 3px solid #FF6600;
+	transform: rotate(-1deg);
+}
+
+/* Two-column grid: left = alphabetical post list, right = post view + tags */
+.dumbdumbhouse {
+	display: grid;
+	grid-template-columns: minmax(260px, 30%) 1fr;
+	gap: 1.5rem;
+	align-items: start;
+	margin-top: 1rem;
+}
+
+.dumb-list {
+	background: #FFFF00;
+	border: 4px solid #000000;
+	padding: 1rem;
+	max-height: 85vh;
+	overflow-y: auto;
+}
+.dumb-list-items {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.dumb-list-items li {
+	margin: 0.15rem 0;
+}
+.dumb-list-items a {
+	/* Individual entries — Barriecito (Google Fonts) */
+	font-family: "Barriecito", "Comic Sans MS", cursive;
+	color: #000000; /* 19.6:1 on yellow */
+	text-decoration: underline wavy #FF00FF;
+	font-weight: 700;
+}
+.dumb-list-items a:hover {
+	background: #00FF00;
+	color: #000000; /* 15.3:1 */
+	display: inline-block;
+	transform: rotate(-1deg);
+}
+.dumb-list-items a.dumb-selected,
+.dumb-list-items a.dumb-selected:hover {
+	background: #00FF00;
+	color: #000000;
+}
+
+.dumb-view > * {
+	background: #00FFFF;
+	border: 4px solid #000000;
+	padding: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.post-view article .post-metadata,
+.post-view article .post-image {
+	margin: 1rem 0;
+}
+
+.tag-cloud, .tag-cloud-home ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+.tag-cloud-item {
+	margin: 0;
+}
+.tag-cloud-item:nth-child(4n+1) .post-tag { background: #00FF00; }
+.tag-cloud-item:nth-child(4n+2) .post-tag { background: #00FFFF; }
+.tag-cloud-item:nth-child(4n+3) .post-tag { background: #FFFF00; }
+.tag-cloud-item:nth-child(4n+4) .post-tag { background: #FF6600; }
+.tag-cloud .post-tag {
+	color: #000000; /* 7.2:1 on the darkest pill (orange), 15–20:1 on the rest */
+	border: 2px solid #000000;
+	border-radius: 999px;
+	padding: 0.15em 0.6em;
+	text-decoration: none;
+	font-style: normal;
+}
+.tag-count {
+	font-size: 0.75em;
+	font-weight: 800;
+}
+
+.links-nextprev {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 0;
+	margin: 1.5rem 0 0;
+}
+.links-nextprev button {
+	background: #00FF00;
+	color: #000000; /* 15.3:1 */
+	border: 3px solid #FF00FF;
+	padding: 0.5em 1em;
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 1rem;
+	cursor: pointer;
+}
+.links-nextprev button:hover {
+	transform: rotate(-1deg);
+}
+
+/* postslist now renders forward (alphabetical archive, newest-first tag
+   pages) — count up from 1 instead of down from the old reversed order. */
+.postlist-item {
+	counter-increment: start-from 1;
+}
+
+/* Single column under 768px: list first, then post view/tags */
+@media (max-width: 767px) {
+	.dumbdumbhouse {
+		grid-template-columns: 1fr;
+	}
+	.dumb-list {
+		max-height: 40vh;
+	}
+}

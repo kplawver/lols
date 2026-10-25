@@ -1,5 +1,5 @@
 export default {
-	title: "LOLS",
+	title: "Welcome to the Dumb Dumb House",
 	url: "https://lols.lawver.net/",
 	language: "en",
 	description: "Things that make me laugh.",

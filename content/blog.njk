@@ -1,10 +1,10 @@
 ---js
 const eleventyNavigation = {
-	key: "Archive",
+	key: "All the Dumb Dumbs",
 	order: 2
 };
 ---
-<h1>Archive</h1>
+<h1>All the Dumb Dumbs</h1>
 
-{% set postslist = collections.posts %}
+{% set postslist = collections.postsAlpha %}
 {% include "postslist.njk" %}
