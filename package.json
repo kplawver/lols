@@ -6,7 +6,9 @@
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"start": "npx @11ty/eleventy --serve --quiet",
-		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy"
+		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
+		"import:images": "node scripts/import.mjs",
+		"backfill": "node scripts/backfill.mjs"
 	},
 	"engines": {
 		"node": ">=18"
@@ -20,6 +22,7 @@
 		"@11ty/eleventy-plugin-rss": "^3.0.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
 		"cross-env": "^10.1.0",
+		"js-yaml": "^4",
 		"luxon": "^3.7.2",
 		"prismjs": "^1.30.0",
 		"zod": "^4.4.3"

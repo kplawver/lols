@@ -2,7 +2,7 @@ import { DateTime } from "luxon";
 import { readdirSync } from "node:fs";
 import { join } from "node:path";
 
-const IMAGE_EXTENSIONS = new Set([".gif", ".jpg", ".jpeg", ".png", ".mp4"]);
+const IMAGE_EXTENSIONS = new Set([".gif", ".jpg", ".jpeg", ".png", ".webp", ".mp4"]);
 
 export default function(eleventyConfig) {
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
@@ -48,7 +48,7 @@ export default function(eleventyConfig) {
 	// Given a post page URL like /posts/<slug>/, return the image (or video)
 	// files that live beside its source bundle in content/blog/<slug>/.
 	// Posts on this site have empty bodies — the bundle images ARE the content.
-	eleventyConfig.addFilter("postImages", function(pageUrl) {
+	eleventyConfig.addFilter("postImages", function(pageUrl, altData) {
 		if(!pageUrl || !pageUrl.startsWith("/posts/")) {
 			return [];
 		}
@@ -80,7 +80,11 @@ export default function(eleventyConfig) {
 				// copied bundle files live at /blog/<slug>/<filename>.
 				url: `/blog/${slug}/${entry.name}`,
 				filename: entry.name,
-				alt: null,
+				// Frontmatter `alt`: a string applies to every image; an object
+				// maps filename -> alt text. Anything else falls back to null.
+				alt: typeof altData === "string" ? altData
+					: altData && typeof altData === "object" ? (altData[entry.name] ?? null)
+					: null,
 			}));
 	});
 };

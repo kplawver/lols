@@ -22,7 +22,7 @@ export default async function(eleventyConfig) {
 	eleventyConfig
 		// Post bundle images/videos — 11ty v3 has no implicit passthrough for
 		// non-template files, so copy them explicitly to /blog/<slug>/<file>.
-		.addPassthroughCopy("content/blog/**/*.{gif,jpg,jpeg,png,mp4}")
+		.addPassthroughCopy("content/blog/**/*.{gif,jpg,jpeg,png,webp,mp4}")
 		// Copy the `.htaccess` file (https redirect for the DreamHost host) to the output root
 		.addPassthroughCopy({
 			"./static/.htaccess": "/.htaccess"
