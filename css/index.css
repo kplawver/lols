@@ -57,7 +57,7 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	max-width: 1200px;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -299,92 +299,98 @@ header {
 
 /* ============================================================
    Welcome to the Dumb Dumb House — phase 2 redesign overrides
-   Deliberately garish: magenta body, yellow list, cyan panels.
-   Contrast rule: bright backgrounds always get black text (#000 on
-   lime 15.3:1, cyan 16.8:1, yellow 19.6:1, orange 7.2:1, magenta
-   6.7:1) — garish colors stay as backgrounds/borders, never text on
-   bright fills. All pairs meet WCAG AA (≥ 4.5:1 normal text).
+   Toned-down palette: dusty pink body (#b86b9e), cream list panel
+   (#fbf0e2), teal right-column panels (#006a82), green headings/
+   nav/buttons (#10593b), plum accents (#600f4b).
+   Contrast rule: dark fills always get cream text (#fbf0e2 on
+   green 7.4:1, teal 5.5:1, plum 11.2:1); black text only on pink
+   (5.6:1) and cream (18.7:1). All text pairs meet WCAG AA.
    ============================================================ */
 
 body {
-	background: #FF00FF;
-	font-family: "Life Savers", "Comic Sans MS", "Comic Neue", cursive;
-	color: #000000;
+	background: #b86b9e;
+	font-family: "Sniglet", "Comic Sans MS", "Comic Neue", cursive;
+	color: #000000; /* 5.63:1 on pink */
 }
 
 header, footer, main {
-	background: #FF00FF;
+	background: #b86b9e;
 }
 
-/* Links on the magenta body (tag pages, post pages, footer):
-   base-blog's link palette dips below AA on magenta — re-anchor it. */
+/* Links on the pink body (tag pages, post pages, footer) */
 a[href] {
 	color: #000000;
-	text-decoration: underline wavy #FFFF00;
+	text-decoration: underline wavy #fbf0e2;
 	text-decoration-thickness: 2px;
 }
 a[href]:visited {
-	color: #17050F; /* 6.3:1 on #FF00FF */
+	color: #17050F; /* 5.29:1 on pink */
 }
 a[href]:hover,
 a[href]:active {
-	color: #17050F;
-	background: #FFFF00;
+	color: #fbf0e2;
+	background: #600f4b; /* 11.19:1 */
 }
 
-/* Meta text (dates, list counters) uses #333, only 4.0:1 on magenta */
+/* Meta text (dates, list counters): base #333 is only 4.0:1 on pink.
+   (.post-metadata time is deliberately NOT forced black here — on the
+   home post-view it sits on teal and must inherit cream from .dumb-view.) */
 .postlist-date,
-.postlist-item:before,
-.post-metadata time {
+.postlist-item:before {
 	color: #000000;
 }
 
 .nav {
 	justify-content: center;
 }
-.nav-item a {
-	background: #FFFF00;
-	color: #000000; /* 19.6:1 */
-	border: 3px solid #FF00FF;
+.nav-item a,
+.nav-item a:visited {
+	background: #10593b;
+	color: #fbf0e2; /* 7.42:1 */
+	border: 3px solid #fbf0e2;
 	padding: 0.25em 0.5em;
+	text-decoration: none;
 }
 .nav-item a:hover {
 	transform: rotate(-2deg);
 }
 
 .home-link {
-	/* Page title — Barrio (Google Fonts) */
-	font-family: "Barrio", "Comic Sans MS", cursive;
-	color: #000000; /* 15.3:1 */
+	/* Site title — Chango (Google Fonts) */
+	font-family: "Chango", "Sniglet", cursive;
+	color: #fbf0e2; /* 11.19:1 on plum */
+	background: #600f4b;
 	padding: 0.25em 0.5em;
-	border: 3px solid #FF6600;
+	border: 3px solid #fbf0e2;
 	font-size: 1.75em;
-	font-weight: 800;
+	font-weight: 400; /* Chango ships one weight; synthetic bold looks bad */
+	text-decoration: none;
 }
 
 h1, h2, h3 {
-	/* Smaller titles — Barriecito (Google Fonts) */
-	font-family: "Barriecito", "Comic Sans MS", cursive;
-	color: #000000;
-	background: #00FF00;
+	/* All headings — Chango (Google Fonts) */
+	font-family: "Chango", "Sniglet", cursive;
+	color: #fbf0e2; /* 7.42:1 on green */
+	background: #10593b;
 	display: inline-block;
 	padding: 0.1em 0.4em;
-	border: 3px solid #FF6600;
+	border: 3px solid #fbf0e2;
 	transform: rotate(-1deg);
 }
 
-/* Two-column grid: left = alphabetical post list, right = post view + tags */
+/* Two-column grid: left = alphabetical post list, right = post view + tags.
+   Fixed 320px list; right column takes the rest (~824px at the 1200px cap). */
 .dumbdumbhouse {
 	display: grid;
-	grid-template-columns: minmax(260px, 30%) 1fr;
+	grid-template-columns: 320px 1fr;
 	gap: 1.5rem;
 	align-items: start;
 	margin-top: 1rem;
 }
 
 .dumb-list {
-	background: #FFFF00;
-	border: 4px solid #000000;
+	background: #fbf0e2;
+	border: 4px solid #600f4b;
 	padding: 1rem;
 	max-height: 85vh;
 	overflow-y: auto;
@@ -398,29 +404,37 @@ h1, h2, h3 {
 	margin: 0.15rem 0;
 }
 .dumb-list-items a {
-	/* Individual entries — Barriecito (Google Fonts) */
-	font-family: "Barriecito", "Comic Sans MS", cursive;
-	color: #000000; /* 19.6:1 on yellow */
-	text-decoration: underline wavy #FF00FF;
+	color: #000000; /* 18.66:1 on cream */
+	text-decoration: underline wavy #b86b9e;
 	font-weight: 700;
 }
 .dumb-list-items a:hover {
-	background: #00FF00;
-	color: #000000; /* 15.3:1 */
+	background: #10593b;
+	color: #fbf0e2; /* 7.42:1 */
 	display: inline-block;
 	transform: rotate(-1deg);
 }
 .dumb-list-items a.dumb-selected,
 .dumb-list-items a.dumb-selected:hover {
-	background: #00FF00;
-	color: #000000;
+	background: #600f4b;
+	color: #fbf0e2; /* 11.19:1 */
 }
 
+/* Right column: teal panels with cream text (5.52:1) */
+.dumb-view {
+	color: #fbf0e2;
+}
 .dumb-view > * {
-	background: #00FFFF;
-	border: 4px solid #000000;
+	background: #006a82;
+	border: 4px solid #fbf0e2;
 	padding: 1rem;
 	margin-bottom: 1.5rem;
+}
+
+/* Links inside the fetched article (incl. its plain tag links) */
+.post-view article a[href],
+.post-view article a[href]:visited {
+	color: #fbf0e2;
 }
 
 .post-view article .post-metadata,
@@ -438,17 +452,24 @@ h1, h2, h3 {
 .tag-cloud-item {
 	margin: 0;
 }
-.tag-cloud-item:nth-child(4n+1) .post-tag { background: #00FF00; }
-.tag-cloud-item:nth-child(4n+2) .post-tag { background: #00FFFF; }
-.tag-cloud-item:nth-child(4n+3) .post-tag { background: #FFFF00; }
-.tag-cloud-item:nth-child(4n+4) .post-tag { background: #FF6600; }
-.tag-cloud .post-tag {
-	color: #000000; /* 7.2:1 on the darkest pill (orange), 15–20:1 on the rest */
-	border: 2px solid #000000;
+/* Pills rotate green → plum → cream; cream pill gets black text (18.66:1) */
+.tag-cloud .post-tag,
+.tag-cloud .post-tag:visited {
+	color: #fbf0e2;
+	background: #10593b;
+	border: 2px solid #fbf0e2;
 	border-radius: 999px;
 	padding: 0.15em 0.6em;
 	text-decoration: none;
 	font-style: normal;
+}
+.tag-cloud-item:nth-child(3n+2) .post-tag {
+	background: #600f4b;
+}
+.tag-cloud-item:nth-child(3n+3) .post-tag,
+.tag-cloud-item:nth-child(3n+3) .post-tag:visited {
+	background: #fbf0e2;
+	color: #000000;
 }
 .tag-count {
 	font-size: 0.75em;
@@ -463,17 +484,21 @@ h1, h2, h3 {
 	padding: 0;
 	margin: 1.5rem 0 0;
 }
-.links-nextprev button {
-	background: #00FF00;
-	color: #000000; /* 15.3:1 */
-	border: 3px solid #FF00FF;
+/* The ✕ Close button used to fall back to UA default styling next to
+   these — give it the same look. */
+.links-nextprev button,
+.post-view [data-post-close] {
+	background: #10593b;
+	color: #fbf0e2; /* 7.42:1 */
+	border: 3px solid #fbf0e2;
 	padding: 0.5em 1em;
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 1rem;
 	cursor: pointer;
 }
-.links-nextprev button:hover {
+.links-nextprev button:hover,
+.post-view [data-post-close]:hover {
 	transform: rotate(-1deg);
 }
 
