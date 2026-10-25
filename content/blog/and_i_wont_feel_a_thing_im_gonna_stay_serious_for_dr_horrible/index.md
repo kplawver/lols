@@ -2,4 +2,11 @@
 title: "And i wont feel a thing im gonna stay serious for dr horrible"
 date: 2020-03-28T07:53:06-04:00
 draft: false
+alt: "A man wearing glasses and a red shirt is shown in profile next to a dark, mechanical robotic arm."
+tags:
+- cyberpunk
+- robot
+- dystopian
+- sci-fi
+- blade runner
 ---
