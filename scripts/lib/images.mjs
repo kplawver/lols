@@ -19,6 +19,9 @@ export function titleFromStem(stem) {
 
 export const MAX_SIDE = 800;
 
+/** ffmpeg lives in PATH via homebrew on macOS; override with FFMPEG_PATH. */
+const FFMPEG = process.env.FFMPEG_PATH || "ffmpeg";
+
 /**
  * Caps each side at MAX_SIDE preserving aspect ratio; smaller images pass
  * through pixel-identical (scale is a no-op at native size). Format follows
@@ -26,7 +29,7 @@ export const MAX_SIDE = 800;
  */
 export function resizeImage(srcPath, destPath) {
 	const result = spawnSync(
-		"/usr/bin/ffmpeg",
+		FFMPEG,
 		[
 			"-y",
 			"-i",

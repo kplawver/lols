@@ -8,5 +8,5 @@ tags:
 - space
 - disappointment
 - funny
-- sci-fi
+- sci fi
 ---

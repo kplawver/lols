@@ -7,5 +7,6 @@ tags:
 - disney
 - princesses
 - video game
+- pixel art
 - retro game
 ---

@@ -6,7 +6,7 @@ alt: "A pixelated, low-resolution graphic featuring the word ROCK in bold yellow
 tags:
 - rock
 - retro
-- pixel-art
+- pixel art
 - music
 - vintage
 - 80s

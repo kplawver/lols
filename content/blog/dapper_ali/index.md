@@ -8,5 +8,5 @@ tags:
 - dapper
 - vintage fashion
 - man in suit
-- mid-century
+- mid century
 ---

@@ -5,9 +5,9 @@ draft: false
 alt: "A parody of the Beatles' Sgt. Pepper album cover showing three band members and a police officer on a zebra crossing, with the officer spraying yellow paint at one member's face."
 tags:
 - beatles
-- sgt-pepper
-- album-cover
+- sgt pepper
+- album cover
 - parody
 - police
-- spray-paint
+- spray paint
 ---

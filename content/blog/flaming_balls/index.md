@@ -7,6 +7,6 @@ tags:
 - doctor
 - alien
 - funny
-- sci-fi
+- sci fi
 - creature
 ---

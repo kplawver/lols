@@ -5,7 +5,7 @@ draft: false
 alt: "A large, ominous green castle with glowing windows sits against a dark night sky."
 tags:
 - evil scientist
-- sci-fi
+- sci fi
 - dark
 - monster
 - halloween

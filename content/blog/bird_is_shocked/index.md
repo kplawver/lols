@@ -5,7 +5,7 @@ draft: false
 alt: "A small owl with very large, bright yellow eyes is perched on a rough, light-colored surface against a dark, green background."
 tags:
 - owl
-- wide-eyed
+- wide eyed
 - surprised
 - creepy
 - bird

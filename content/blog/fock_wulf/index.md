@@ -8,5 +8,5 @@ tags:
 - war plane
 - humor
 - vintage
-- focke-wulf
+- focke wulf
 ---

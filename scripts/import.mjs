@@ -4,7 +4,7 @@
 import { existsSync, mkdirSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { DateTime } from "luxon";
-import { DEFAULT_MODEL, DEFAULT_URL, assertVisionModel, describeImage } from "./lib/llm.mjs";
+import { DEFAULT_MODEL, DEFAULT_URL, assertVisionModel, describeImage, normalizeTags } from "./lib/llm.mjs";
 import { IMAGE_EXTENSIONS, resizeImage, titleFromStem } from "./lib/images.mjs";
 
 const args = process.argv.slice(2);
@@ -18,22 +18,6 @@ const dryRun = args.includes("--dry-run");
 
 const IMPORT_DIR = "import";
 const CONTENT_DIR = join("content", "blog");
-
-function normalizeTags(tags) {
-	const seen = new Set();
-	const out = [];
-	for (const tag of tags ?? []) {
-		if (typeof tag !== "string") continue;
-		const t = tag.trim().toLowerCase().replace(/\s+/g, " ");
-		if (!t) continue;
-		const key = t.toLowerCase();
-		if (seen.has(key)) continue;
-		seen.add(key);
-		out.push(t);
-		if (out.length === 6) break;
-	}
-	return out;
-}
 
 function normalizeAlt(alt) {
 	if (typeof alt !== "string") return "";

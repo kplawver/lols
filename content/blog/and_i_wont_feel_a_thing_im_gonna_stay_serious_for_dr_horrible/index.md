@@ -7,6 +7,6 @@ tags:
 - cyberpunk
 - robot
 - dystopian
-- sci-fi
+- sci fi
 - blade runner
 ---

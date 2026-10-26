@@ -7,6 +7,6 @@ tags:
 - star wars
 - darth vader
 - walking
-- sci-fi
+- sci fi
 - humor
 ---

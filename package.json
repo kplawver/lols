@@ -4,7 +4,7 @@
 	"description": "Things that make me laugh.",
 	"type": "module",
 	"scripts": {
-		"build": "npx @11ty/eleventy",
+		"build": "node scripts/check-tags.mjs && npx @11ty/eleventy",
 		"start": "npx @11ty/eleventy --serve --quiet",
 		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
 		"import:images": "node scripts/import.mjs",

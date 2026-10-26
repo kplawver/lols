@@ -51,3 +51,11 @@ yarn backfill -- --force      # redo posts that already have tags/alt
 ```
 
 Note: ollama reads only the first frame of GIFs, so tags/alt describe that frame.
+
+## Tag format
+
+Tags are canonicalized on import/backfill: lowercase, spaces between words, no
+punctuation (e.g. `pixel art`, never `pixel-art`). Since tag URLs are slugified
+tag text, two spellings of the same tag would collide on `/tags/<slug>/` — the
+build fails with a `tag collision` error if front matter ever contains both,
+and the import/backfill scripts merge them into one.

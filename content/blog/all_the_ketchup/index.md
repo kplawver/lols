@@ -7,7 +7,7 @@ tags:
 - magic trick
 - coin
 - hand
-- close-up
+- close up
 - performance
 - sleight of hand
 ---

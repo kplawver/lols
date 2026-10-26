@@ -8,5 +8,5 @@ tags:
 - meme
 - funny
 - dune
-- sci-fi
+- sci fi
 ---

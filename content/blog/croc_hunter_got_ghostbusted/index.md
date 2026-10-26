@@ -8,5 +8,5 @@ tags:
 - futuristic
 - robot
 - dystopian
-- sci-fi
+- sci fi
 ---

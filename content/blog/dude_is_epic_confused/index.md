@@ -6,7 +6,7 @@ alt: "A man with long, graying hair looks down with a deeply disappointed and tr
 tags:
 - darth vader
 - disappointed
-- sci-fi
+- sci fi
 - star wars
 - sad
 ---

@@ -9,5 +9,5 @@ tags:
 - funny
 - person
 - coffee
-- creme brûlée
+- creme brulee
 ---

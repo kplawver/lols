@@ -6,7 +6,7 @@ alt: "A large, silver flying saucer hovers above a grassy field with several peo
 tags:
 - flying saucer
 - aliens
-- sci-fi
+- sci fi
 - vintage
 - ufo
 ---

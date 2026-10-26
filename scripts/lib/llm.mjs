@@ -7,7 +7,7 @@ const REQUEST_TIMEOUT_MS = 300_000;
 const DESCRIBE_PROMPT = `You are tagging an image for a humor website. Look at the image and reply with ONLY a JSON object (no markdown, no extra text):
 {"tags": ["..."], "alt": "..."}
 
-- "tags": 3 to 6 short lowercase tags for the image — subjects, emotions, actions, and the movie/show/game it references if you recognize it. Multi-word tags are fine (for example "star wars").
+- "tags": 3 to 6 short tags for the image — subjects, emotions, actions, and the movie/show/game it references if you recognize it. Every tag must be lowercase, use single spaces between words, and contain no punctuation (no hyphens, underscores, apostrophes, or commas) — write "star wars", never "star-wars" or "Star Wars".
 - "alt": alt text for a blind reader — describe literally what is visible in one or two plain sentences. Do not start with "image of" and do not use quotation marks.`;
 
 const DESCRIBE_FORMAT = {
@@ -18,6 +18,35 @@ const DESCRIBE_FORMAT = {
 	},
 	required: ["tags", "alt"],
 };
+
+/**
+ * Canonical tag form: lowercase, diacritics stripped ("creme brûlée" ->
+ * "creme brulee", matching slugify's URL), apostrophes removed, any other
+ * punctuation run collapsed to a single space ("pixel-art" -> "pixel art").
+ * Tag URLs come from slugify(tag), so two tags with the same canonical form
+ * would build the same /tags/<slug>/ page — hence the dedupe. Kept to 6 tags.
+ */
+export function normalizeTags(tags) {
+	const seen = new Set();
+	const out = [];
+	for (const tag of tags ?? []) {
+		if (typeof tag !== "string") continue;
+		const t = tag
+			.normalize("NFD")
+			.replaceAll(/[\u0300-\u036f]/g, "")
+			.trim()
+			.toLowerCase()
+			.replaceAll(/['’]/g, "")
+			.replace(/[^a-z0-9]+/g, " ")
+			.trim();
+		if (!t) continue;
+		if (seen.has(t)) continue;
+		seen.add(t);
+		out.push(t);
+		if (out.length === 6) break;
+	}
+	return out;
+}
 
 /**
  * Throws unless `model` reports the vision capability. Older servers without
