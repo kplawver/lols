@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # Stage 1: build the Eleventy site
-FROM node:22-alpine AS build
+FROM node:24-alpine AS build
 WORKDIR /app
 
 RUN corepack enable
