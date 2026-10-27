@@ -7,7 +7,7 @@ tags:
 - shouting
 - comedy
 - man
-- black-and-white
+- black and white
 - vintage
 - exaggerated
 ---

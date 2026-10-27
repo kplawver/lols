@@ -5,7 +5,7 @@ draft: false
 alt: "A claymation character with spiky black hair and a yellow shirt holds a blue hairdryer pointed at their head while making an exaggerated facial expression."
 tags:
 - claymation
-- stop-motion
+- stop motion
 - hairdryer
 - comedy
 - animated character

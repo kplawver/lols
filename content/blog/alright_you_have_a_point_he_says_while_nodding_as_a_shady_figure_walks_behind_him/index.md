@@ -5,7 +5,7 @@ draft: false
 alt: "A young man with dark hair wearing a dark suit and red tie smiles slightly while standing in a crowd, with other people partially visible in the background."
 tags:
 - taylor-zeitel
-- young-man
+- young man
 - smile
 - formal-attire
 - crowd

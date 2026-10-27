@@ -9,5 +9,5 @@ tags:
 - shave-it-later
 - meme
 - shrek
-- shrek-the-movie
+- shrek the movie
 ---

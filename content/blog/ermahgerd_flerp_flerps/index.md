@@ -9,5 +9,5 @@ tags:
 - meme
 - flip-flops
 - excitement
-- vintage-photo
+- vintage photo
 ---

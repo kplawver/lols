@@ -8,6 +8,6 @@ tags:
 - eating
 - banana
 - suit
-- tv-show
+- tv show
 - humor
 ---

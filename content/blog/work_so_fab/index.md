@@ -5,7 +5,7 @@ draft: false
 alt: "A claymation character with spiky black hair and a mustache holds a blue hairdryer pointed at their head while wearing a yellow shirt and a patterned sash."
 tags:
 - claymation
-- stop-motion
+- stop motion
 - haircut
 - humor
 - animation

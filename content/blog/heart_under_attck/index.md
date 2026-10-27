@@ -8,6 +8,6 @@ tags:
 - airplane
 - dogfight
 - retro
-- pop-art
+- pop art
 - surreal
 ---

@@ -5,7 +5,7 @@ draft: false
 alt: "A large, illuminated face resembling a human head floats in the night sky above a dimly lit town with buildings and streetlights."
 tags:
 - humor
-- night-sky
+- night sky
 - face-projection
 - surreal
 - prank

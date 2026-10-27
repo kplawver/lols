@@ -5,7 +5,7 @@ draft: false
 alt: "A close-up of a blocky, claymation-style robot head and shoulders against a black background, with visible seams and a simple facial structure."
 tags:
 - robot
-- stop-motion
+- stop motion
 - vintage
 - animation
 - claymation
