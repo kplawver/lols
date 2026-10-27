@@ -2,11 +2,12 @@
 title: "Bubblemonkey"
 date: 2020-03-28T07:53:05-04:00
 draft: false
-alt: "A sloth is hanging from a branch, looking bewildered with bubbles floating around it."
+alt: "A monkey hangs upside down with its mouth open wide, surrounded by floating soap bubbles, with the text 'BUBBLEMONKEY HATES YOU.' displayed at the bottom."
 tags:
-- sloth
-- funny
+- monkey
+- bubbles
 - meme
-- silly
-- animal
+- humor
+- playful
+- bubblemonkey
 ---

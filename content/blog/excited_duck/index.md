@@ -2,11 +2,11 @@
 title: "Excited duck"
 date: 2020-03-28T07:54:19-04:00
 draft: false
-alt: "Two geese are standing on green grass, with text overlay that reads I'M SO EXCITED."
+alt: "Two white and gray geese on grass, with the text 'I'M SO EXCITED' at the top."
 tags:
-- excited
 - goose
+- excited
+- meme
+- birds
 - funny
-- happy
-- animal
 ---

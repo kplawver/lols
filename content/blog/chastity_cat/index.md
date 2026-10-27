@@ -2,11 +2,11 @@
 title: "Chastity cat"
 date: 2020-03-28T07:53:51-04:00
 draft: false
-alt: "A close-up shot shows a person's torso with a patterned top, and a hand is reaching into the frame from the right."
+alt: "A close-up of a person's hand with a finger pointing at a small pink button on a patterned shirt with a white collar."
 tags:
-- funny
-- humor
-- awkward
-- body
-- surprise
+- button
+- shirt
+- fingers
+- clothing
+- close-up
 ---

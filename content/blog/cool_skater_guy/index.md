@@ -2,11 +2,12 @@
 title: "Cool skater guy"
 date: 2020-03-28T07:53:49-04:00
 draft: false
-alt: "A man in a suit is awkwardly pushing a skateboard down a paved road."
+alt: "A black and white photo of a man in a suit and hat riding a skateboard down a street while people watch from the sidelines."
 tags:
-- skater
-- funny
+- marlon brando
+- the godfather
+- skateboarding
 - vintage
-- outdoors
-- awkward
+- black and white
+- suspicious
 ---

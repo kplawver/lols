@@ -2,11 +2,12 @@
 title: "Eat your damn oatmeal"
 date: 2020-03-28T07:54:27-04:00
 draft: false
-alt: "An older man with a prominent mustache is looking directly at the camera with a serious expression."
+alt: "A black and white portrait of an older man with glasses and a digitally added thick black mustache, with the text 'Eat your damn oatmeal' in white letters below."
 tags:
-- dad joke
-- funny
-- old man
+- mustache
+- meme
+- eat your damn oatmeal
+- socrates
 - humor
-- sarcasm
+- food
 ---

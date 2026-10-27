@@ -2,11 +2,11 @@
 title: "Constant sorrow but good dancing"
 date: 2020-03-28T07:53:46-04:00
 draft: false
-alt: "Two older men in suits are seated, with one man looking intently at the other in a dimly lit, curtained setting."
+alt: "A group of men in 1920s attire, including hats and suits, are gathered indoors in front of a curtain, with one man in the foreground wearing a light-colored jacket and hat."
 tags:
-- old men
-- serious
-- dramatic
+- the great gatsby
+- 1920s
+- formal wear
+- indoor scene
 - vintage
-- movie scene
 ---

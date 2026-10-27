@@ -2,11 +2,12 @@
 title: "Blame my shelf"
 date: 2020-03-28T07:53:40-04:00
 draft: false
-alt: "A middle-aged man with a stern expression looks directly at the camera while text overlays read 'A BOOK FELL ON MY HEAD I CAN ONLY BLAME MY SHELF'."
+alt: "A man with a gray beard wearing a black tuxedo and bow tie looks directly at the camera with a serious expression. White text above reads A BOOK FELL ON MY HEAD and below reads I CAN ONLY BLAME MY SHELF."
 tags:
-- dad humor
-- funny meme
-- angry man
-- dad joke
-- movie meme
+- shakespeare
+- meme
+- book
+- humor
+- blame
+- shelf
 ---

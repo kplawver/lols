@@ -2,11 +2,11 @@
 title: "Flappy arms facepalm"
 date: 2020-03-28T07:54:15-04:00
 draft: false
-alt: "A woman in a blue dress is running across a hallway, appearing heavily blurred due to motion."
+alt: "A person with short brown hair wearing a blue patterned dress stands in front of a door with decorative red and white glass panels, with one arm extended outward."
 tags:
-- blurry
-- running
-- funny
-- action
-- motion blur
+- mrs. doubtfire
+- robin williams
+- disguise
+- comedy
+- movie scene
 ---

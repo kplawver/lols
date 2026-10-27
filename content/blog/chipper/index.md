@@ -2,11 +2,12 @@
 title: "Chipper"
 date: 2020-03-28T07:53:17-04:00
 draft: false
-alt: "A small, decorated cardboard box sits in the snow outdoors, surrounded by trees and falling snow."
+alt: "A single foot wearing a white sock is stuck in a yellow and black striped bucket hanging from a tree branch in a snowy landscape."
 tags:
-- snowy
+- snow
 - winter
-- funny
-- cold
-- outdoor
+- sock
+- bucket
+- stuck
+- absurd
 ---

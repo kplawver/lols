@@ -2,11 +2,11 @@
 title: "Crying girl gives you the finger"
 date: 2020-03-28T07:53:36-04:00
 draft: false
-alt: "A young girl with blonde hair is looking at her hand, holding up one finger in a gesture."
+alt: "A young girl with a pouty expression is shown in profile, extending her hand with the middle finger raised."
 tags:
 - child
-- finger
+- middle finger
+- black and white
 - funny
-- playful
-- pointing
+- pouty face
 ---

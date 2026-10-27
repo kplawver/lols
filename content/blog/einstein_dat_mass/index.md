@@ -2,11 +2,12 @@
 title: "Einstein dat mass"
 date: 2020-03-28T07:54:17-04:00
 draft: false
-alt: "A black and white portrait of an elderly man with wild white hair and a prominent mustache, looking directly at the camera."
+alt: "A black and white photograph of Albert Einstein sitting with a pipe in his mouth, with the text DAT MASS overlaid in large white letters at the bottom."
 tags:
-- old man
-- eccentric
-- vintage
-- mustache
-- dramatic
+- einstein
+- physics
+- mass
+- meme
+- black and white
+- pipe
 ---

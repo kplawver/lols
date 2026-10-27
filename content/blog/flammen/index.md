@@ -2,11 +2,12 @@
 title: "Flammen"
 date: 2020-03-28T07:53:06-04:00
 draft: false
-alt: "A person is aiming a flamethrower, which is shooting a large plume of fire into the dark background."
+alt: "A soldier wearing a helmet and carrying a tank on his back is spraying a stream of fire from a flamethrower, with bold white text above and below the image."
 tags:
+- meme
 - flamethrower
+- german
+- world war ii
+- soldier
 - fire
-- action
-- humor
-- weapon
 ---

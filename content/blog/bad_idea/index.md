@@ -2,10 +2,11 @@
 title: "Bad idea"
 date: 2020-03-28T07:53:01-04:00
 draft: false
-alt: "A completely black screen with no visible features."
+alt: "A very dark, nearly black image with faint, indistinct shapes and a subtle texture visible in the upper right area."
 tags:
 - dark
-- empty
-- night
-- void
+- silhouette
+- mystery
+- low-light
+- shadow
 ---

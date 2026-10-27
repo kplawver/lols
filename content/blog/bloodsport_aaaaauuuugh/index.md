@@ -2,11 +2,12 @@
 title: "Bloodsport aaaaauuuugh"
 date: 2020-03-28T07:53:42-04:00
 draft: false
-alt: "A man with a distressed expression is shown shirtless, looking upwards with his arms slightly raised."
+alt: "A shirtless man with wet hair and a bloody nose makes a wide-eyed shocked expression while raising both hands with fingers spread apart in front of a blurred crowd."
 tags:
-- creature feature
-- horror
-- screaming
-- actor
-- body horror
+- jonah hill
+- getting away
+- shock
+- comedy
+- boxing
+- facial expression
 ---

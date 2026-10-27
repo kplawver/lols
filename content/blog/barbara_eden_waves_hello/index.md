@@ -2,11 +2,12 @@
 title: "Barbara eden waves hello"
 date: 2020-03-28T07:53:51-04:00
 draft: false
-alt: "A blonde woman with vintage hairstyle and makeup smiles brightly while looking slightly off-camera."
+alt: "A woman with blonde hair in curlers smiles broadly while wearing a red cardigan and brown shirt in a vintage interior setting."
 tags:
-- vintage glamour
-- smiling
-- retro fashion
-- classic movie
-- 1950s style
+- audrey hepburn
+- breakfast at tiffinys
+- hair curlers
+- retro
+- humor
+- 1960s
 ---

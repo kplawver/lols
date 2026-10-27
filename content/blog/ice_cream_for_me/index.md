@@ -2,4 +2,12 @@
 title: "Ice cream for me"
 date: 2020-03-28T07:54:16-04:00
 draft: false
+alt: "A hand holding a white cup is pressed against a window with bloodstains, while multiple zombie-like hands reach up from below."
+tags:
+- zombie
+- horror
+- gore
+- hand
+- window
+- comedy
 ---

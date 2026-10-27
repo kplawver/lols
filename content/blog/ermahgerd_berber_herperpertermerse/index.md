@@ -2,11 +2,12 @@
 title: "Ermahgerd berber herperpertermerse"
 date: 2020-03-28T07:54:28-04:00
 draft: false
-alt: "A large, gray dinosaur-like creature is swimming in blue water. The text 'ERMAHGERD' is displayed above the creature."
+alt: "Two hippos underwater with one appearing to dance, overlaid with the text ERMAGHERD at the top and BERBER HERPERPERTERMERSE at the bottom, with a small inset of a woman with pigtails in the lower left corner."
 tags:
-- dinosaur
-- funny
+- hippo
 - meme
-- ermangerd
-- monster
+- ermahgerd
+- berber
+- underwater
+- funny
 ---

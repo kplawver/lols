@@ -2,11 +2,12 @@
 title: "Chicken regrets nothing"
 date: 2020-03-28T07:53:50-04:00
 draft: false
-alt: "A white chicken is shown against a dark background with the text I REGRET NOTHING overlaid."
+alt: "A white chicken with a red comb is shown against a dark background with red lighting, with the text 'I REGRET NOTHING' in red capital letters across the bottom."
 tags:
 - chicken
-- regret
-- funny
 - meme
-- darth vader
+- regret nothing
+- confident
+- humor
+- white chicken
 ---

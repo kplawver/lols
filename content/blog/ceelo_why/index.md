@@ -2,11 +2,12 @@
 title: "Ceelo why"
 date: 2020-03-28T07:53:39-04:00
 draft: false
-alt: "A large man with a beard is shown with a wide-open mouth and an intense, humorous expression."
+alt: "A man with a bald head wearing red-framed glasses and a red plaid shirt has his mouth open in an exaggerated expression of confusion, with the word WHY in large white letters overlaid at the bottom."
 tags:
-- funny
 - meme
-- angry
-- reaction
 - why
+- confusion
+- kevin hamilton
+- red glasses
+- comedy
 ---

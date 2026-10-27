@@ -2,12 +2,12 @@
 title: "Dude stir"
 date: 2020-03-28T07:53:13-04:00
 draft: false
-alt: "A man with long, wavy hair and a beard looks intensely at the camera while holding a bowl of something."
+alt: "A man with long wavy hair and a beard wearing a light green robe holds a glass with a white substance in one hand and gestures with the other, with several bottles visible in the background."
 tags:
-- davy jones
-- pirate
-- beard
+- jerry goldsmith
+- composer
 - long hair
-- funny
-- fantasy
+- beard
+- casual
+- holding glass
 ---

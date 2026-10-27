@@ -2,11 +2,12 @@
 title: "Bersnerss"
 date: 2020-03-28T07:53:11-04:00
 draft: false
-alt: "A man with glasses is laughing heartily while raising his arms in excitement."
+alt: "A man in a suit and tie is laughing while talking on a cell phone with one fist raised in excitement, with the text 'ERMAHGERD BERSNERSS!' overlaid on the image."
 tags:
-- ermagherd
-- bersnerrs
-- joy
-- comedy
-- celebration
+- meme
+- happy
+- phone call
+- businessman
+- excited
+- ermahgerd
 ---

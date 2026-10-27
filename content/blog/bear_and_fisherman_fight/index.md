@@ -2,11 +2,11 @@
 title: "Bear and fisherman fight"
 date: 2020-03-28T07:53:34-04:00
 draft: false
-alt: "A large brown bear is standing on a grassy hill, looking down at a small person near the ground."
+alt: "A large brown bear is standing on its hind legs and hugging a person wearing an orange jacket on a grassy bank near a river."
 tags:
+- bear hug
+- hugging
 - bear
-- hiking
-- awkward
 - nature
 - funny
 ---

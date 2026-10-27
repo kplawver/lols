@@ -2,11 +2,12 @@
 title: "Chick magnet"
 date: 2020-03-28T07:53:51-04:00
 draft: false
-alt: "A person is lying on the grass surrounded by several chickens that appear to be clustered around them."
+alt: "A young man lies on his back in a grassy field with several chickens perched on his torso and legs, and the text CHICK MAGNET is displayed in large white letters at the bottom."
 tags:
-- chick
-- funny
-- chicken
-- surreal
+- chick magnet
 - humor
+- chickens
+- meme
+- grass
+- playful
 ---

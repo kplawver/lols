@@ -2,11 +2,12 @@
 title: "Boba dgaf"
 date: 2020-03-28T07:53:42-04:00
 draft: false
-alt: "A character resembling Darth Vader is walking across a paved area in front of a large Star Wars themed building."
+alt: "A Bobba Fett character is running toward the viewer in front of a Star Wars themed entrance with steps and a sign that reads Star Wars Legends."
 tags:
 - star wars
-- darth vader
-- walking
-- sci fi
+- bobba fett
+- running
 - humor
+- video game
+- action
 ---

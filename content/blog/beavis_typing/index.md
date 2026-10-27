@@ -2,11 +2,12 @@
 title: "Beavis typing"
 date: 2020-03-28T07:53:36-04:00
 draft: false
-alt: "A cartoon man with blonde hair is sitting at a desk, looking intently at a computer monitor displaying green text."
+alt: "A cartoon character with orange hair sits at a desk typing on a large retro computer with a green screen displaying lines of text."
 tags:
-- nerd
+- futurama
+- bender
 - computer
-- geek
-- retro
-- homer simpson
+- typing
+- cartoon
+- retro computer
 ---

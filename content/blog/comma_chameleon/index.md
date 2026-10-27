@@ -2,11 +2,12 @@
 title: "Comma chameleon"
 date: 2020-03-28T07:53:44-04:00
 draft: false
-alt: "A bright green frog with a spiky back is shown in a playful, exaggerated pose against a dark background."
+alt: "A green chameleon is partially hidden behind a row of green comma-shaped shapes on a dark blue background, with its curled tail visible."
 tags:
-- frog
-- funny
+- chameleon
+- shy
+- hiding
 - green
-- meme
-- silly
+- animal
+- humor
 ---

@@ -2,11 +2,12 @@
 title: "Escalated quickly"
 date: 2020-03-28T07:54:26-04:00
 draft: false
-alt: "A middle-aged man with a serious expression looks off to the side, seemingly reacting to something unexpected."
+alt: "A man in a blue suit and tie sits in an office chair holding a beer bottle, with a caption reading 'BOY, THAT ESCALATED QUICKLY' overlaid at the bottom."
 tags:
-- disappointed
-- man
+- the office
+- michael scott
+- giffy
 - reaction
-- funny
-- dramatic
+- escalated
+- humor
 ---

@@ -2,11 +2,12 @@
 title: "Eagle haters"
 date: 2020-03-28T07:54:28-04:00
 draft: false
-alt: "A large eagle is flying against a pale sky, seemingly embodying the phrase 'haters gonna hate'."
+alt: "A bald eagle with wings spread is flying low over a body of water, with its reflection visible below, and the text 'HATERS GONNA HATE' is displayed at the top."
 tags:
 - eagle
 - haters gonna hate
-- humor
-- attitude
+- meme
 - bird
+- flying
+- reflection
 ---

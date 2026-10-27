@@ -2,11 +2,12 @@
 title: "Bert and ernie sherbert"
 date: 2020-03-28T07:53:36-04:00
 draft: false
-alt: "A cartoon character with wild hair and a large smile is being asked if he would like some ice cream by a yellow, cheerful character."
+alt: "Two Muppet characters, Ernie and Bert, are shown side by side with text above asking if Ernie would like some ice cream and text below reading SHERBERT."
 tags:
-- ice cream
+- muppets
 - ernie
-- funny
-- cartoon
-- say ernie
+- bert
+- ice cream
+- sherbert
+- meme
 ---

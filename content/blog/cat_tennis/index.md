@@ -2,11 +2,11 @@
 title: "Cat tennis"
 date: 2020-03-28T07:53:35-04:00
 draft: false
-alt: "A fluffy brown and white cat looks directly at the camera with a slightly bewildered expression."
+alt: "A white and orange tabby cat with wide, round eyes and a pink nose crouches low on a carpeted surface, looking directly at the camera with an expression of surprise or alarm."
 tags:
 - cat
-- cute
-- confused
-- funny
+- wide-eyed
+- shock
+- comedy
 - pet
 ---

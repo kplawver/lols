@@ -2,11 +2,12 @@
 title: "Batman needs a ride"
 date: 2020-03-28T07:53:46-04:00
 draft: false
-alt: "Batman and Superman are shown in a humorous, stylized drawing, with Batman looking stern and Superman looking cheerful."
+alt: "A cartoon drawing shows Batman sitting on Superman's back as Superman flies forward with his arms outstretched, with the text 'BATMAN RIDES SUPERMAN' written below."
 tags:
 - batman
 - superman
-- humor
-- comic books
-- rivalry
+- superhero
+- cartoon
+- flying
+- comics
 ---

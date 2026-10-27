@@ -2,11 +2,11 @@
 title: "Derpocalypse"
 date: 2020-03-28T07:53:53-04:00
 draft: false
-alt: "A group of fluffy dogs are gathered on green grass, looking at the camera with various expressions."
+alt: "Three corgi dogs are stacked vertically on a grassy field, with the bottom dog looking to the side with its mouth open, and large white text at the bottom reads DERPOCALYPSE."
 tags:
+- corgi
 - dogs
-- funny
-- group
-- cute
-- chaos
+- derpocalypse
+- funny animals
+- stacked dogs
 ---

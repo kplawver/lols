@@ -2,11 +2,12 @@
 title: "Clay out of your damn mind"
 date: 2020-03-28T07:53:02-04:00
 draft: false
-alt: "A middle-aged man with dark skin looks down pensively while holding some papers in his hands."
+alt: "A man in a light shirt and tie sits at a desk in a dimly lit office, looking down at a stack of papers he is holding."
 tags:
-- disappointed
-- sad
-- man
-- thinking
-- dramatic
+- drama
+- office
+- reading
+- serious
+- documents
+- african-american man
 ---

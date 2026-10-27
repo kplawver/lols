@@ -2,11 +2,12 @@
 title: "Corgi pudge is adorable"
 date: 2020-03-28T07:53:37-04:00
 draft: false
-alt: "A fluffy black and white dog is sitting on a wooden deck, looking directly at the camera with a happy expression."
+alt: "A black and white corgi wearing a green patterned bow tie sits on a wooden deck with its tongue out, in front of a house with a window."
 tags:
 - dog
-- cute
-- black and white
+- corgi
+- green bow tie
 - happy
-- corgi mix
+- sunny day
+- wooden deck
 ---

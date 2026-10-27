@@ -2,12 +2,12 @@
 title: "Dinald dances"
 date: 2020-03-28T07:53:44-04:00
 draft: false
-alt: "Donald Duck and Goofy are sitting in a car, looking somewhat exasperated or comical."
+alt: "Two animated characters, Goofy and Max Goof, are sitting in the front seats of a car at night, with Goofy driving and Max looking tired in the passenger seat."
 tags:
-- cartoon
-- funny
-- disney
-- donald duck
 - goofy
-- vacation
+- max goof
+- disney
+- animation
+- driving
+- tired
 ---

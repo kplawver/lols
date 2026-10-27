@@ -2,11 +2,12 @@
 title: "Blues bros go fast"
 date: 2020-03-28T07:53:48-04:00
 draft: false
-alt: "Two men in dark suits are seated in a car, looking intensely forward in a dimly lit setting."
+alt: "A man in a suit and sunglasses sits in the driver's seat of a car with a tense expression, while another man in sunglasses sits in the passenger seat."
 tags:
-- dark
-- serious
-- men
-- mystery
-- film noir
+- johnny depp
+- sweeney todd
+- movie
+- suspense
+- car scene
+- villain
 ---

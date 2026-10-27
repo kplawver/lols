@@ -2,11 +2,12 @@
 title: "Cookie monster is waiting"
 date: 2020-03-28T07:53:53-04:00
 draft: false
-alt: "A large, blue, furry monster with big eyes looks up with a slightly sad or bewildered expression against a city backdrop."
+alt: "Cookie Monster, a blue furry puppet with large white eyes, sits at a desk wearing a white collar and tie, with a partially eaten cookie in front of him and a cityscape visible through the window behind."
 tags:
-- monster
-- blue
-- funny
-- monsters inc
-- sad
+- cookie monster
+- sesame street
+- office
+- snacking
+- muppet
+- work humor
 ---

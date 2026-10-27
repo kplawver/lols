@@ -2,11 +2,12 @@
 title: "Cover squirrel"
 date: 2020-03-28T07:53:46-04:00
 draft: false
-alt: "A small squirrel is sitting in the snow, appearing to enjoy a piece of snow or ice."
+alt: "A red squirrel stands in the snow with snowflakes on its face and paws, eyes closed, with the text 'EASY, BREEZY, BEAUTIFUL' above and 'COVER SQUIRREL' below."
 tags:
 - squirrel
-- easy breezy beautiful
-- cute
-- winter
 - snow
+- easy breezy beautiful
+- cover squirrel
+- meme
+- cute
 ---

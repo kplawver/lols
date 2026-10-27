@@ -2,11 +2,12 @@
 title: "Baby is a good dancer"
 date: 2020-03-28T07:53:47-04:00
 draft: false
-alt: "A young baby is standing in a room, looking directly at the camera with a playful expression."
+alt: "A smiling toddler stands in a living room wearing only a diaper with a white towel wrapped around their head, while a person sits at a table in the background."
 tags:
+- toddler
+- towel
 - funny
-- baby
-- naked
-- humor
-- childish
+- bathroom
+- hair
+- confident
 ---

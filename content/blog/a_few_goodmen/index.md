@@ -2,12 +2,12 @@
 title: "A Few Goodmen"
 date: 2020-03-28T07:53:43-04:00
 draft: false
-alt: "A movie poster for 'A Few Good Men' featuring three identical images of actor John Goodman wearing different judicial hats, arranged over an American flag with a gavel in the foreground."
+alt: "A movie poster for 'A Few Good Men' featuring three overlapping images of actor John Goodman wearing a judge's robe and hat, with a gavel resting on an American flag in the foreground."
 tags:
 - john goodman
 - a few good men
 - movie poster
 - comedy
-- repetition
-- judges
+- actor
+- 1990s film
 ---

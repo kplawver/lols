@@ -2,9 +2,11 @@
 title: "Apple not a pipe"
 date: 2020-03-28T07:53:44-04:00
 draft: false
-alt: "A green apple is sitting inside a large, brown, curved pipe, with a small hat on the apple."
+alt: "A green apple wearing a brown hat is sitting on a toilet inside a large pipe, with a roll of toilet paper hanging nearby. The text below reads, 'This is not a pipe.'"
 tags:
-- illustration
-- magritte
-- pooping
+- apple
+- toilet
+- humor
+- magenta
+- art
 ---

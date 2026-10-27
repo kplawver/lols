@@ -2,11 +2,12 @@
 title: "Epic bellyflop"
 date: 2020-03-28T07:54:15-04:00
 draft: false
-alt: "A young boy is running across a bridge while another person is visible in the background."
+alt: "A shirtless man in plaid shorts runs away from another man who is swinging a long stick or pole on a bridge with white railings and green foliage in the background."
 tags:
+- fighting
+- comedy
 - running
-- silly
-- funny
-- child
-- action
+- stick
+- shirtless
+- outdoor
 ---

@@ -2,11 +2,12 @@
 title: "Bird feet were made for walkin"
 date: 2020-03-28T07:53:44-04:00
 draft: false
-alt: "A large, orange, gingerbread man figure is standing on an asphalt road under a bright sky."
+alt: "A pair of orange furry feet with pink fuzzy bands around the ankles, belonging to a cartoon squirrel character, walking on a cracked asphalt road."
 tags:
-- gingerbread man
-- funny
-- orange
-- cute
-- candy
+- spongebob
+- sandy cheeks
+- cartoon
+- animation
+- feet
+- road trip
 ---

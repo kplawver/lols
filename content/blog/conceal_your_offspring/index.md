@@ -2,11 +2,12 @@
 title: "Conceal your offspring"
 date: 2020-03-28T07:53:37-04:00
 draft: false
-alt: "A man with a serious expression is shown against a dark background, with text overlaid that reads a darkly humorous statement."
+alt: "A woman with a red headband and a black tank top is shown with a magnifying glass and a top hat superimposed on her face, with white text above and below making a humorous statement."
 tags:
-- dark humor
 - meme
-- absurd
 - funny
-- dark comedy
+- magnifying glass
+- hat
+- woman
+- humor
 ---

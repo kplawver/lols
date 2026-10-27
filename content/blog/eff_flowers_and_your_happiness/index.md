@@ -2,11 +2,12 @@
 title: "Eff flowers and your happiness"
 date: 2020-03-28T07:53:11-04:00
 draft: false
-alt: "A person is aggressively yelling while standing in a field of yellow flowers."
+alt: "Two riot police officers in a field of yellow flowers, one swinging a baton at the other, with the text 'FUCK FLOWERS AND FUCK YOUR HAPPINESS' overlaid."
 tags:
-- funny
-- dark humor
-- anger
-- flowers
 - meme
+- anti-romance
+- riot police
+- violence
+- flowers
+- cynical
 ---

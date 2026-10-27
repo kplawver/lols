@@ -2,11 +2,12 @@
 title: "Dad fu"
 date: 2020-03-28T07:53:47-04:00
 draft: false
-alt: "A family is gathered in a brightly lit living room, with one person looking visibly uncomfortable while others are interacting."
+alt: "A man in a black shirt and shorts stands in a living room holding a white controller, playing a motion-controlled video game while two women sit at a kitchen island in the background."
 tags:
-- awkward
+- wii
+- video games
+- living room
 - family
-- awkward moment
-- indoor
-- uncomfortable
+- motion control
+- casual gaming
 ---

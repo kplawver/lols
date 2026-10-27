@@ -2,11 +2,12 @@
 title: "Erhmahgerd kerrets"
 date: 2020-03-28T07:54:21-04:00
 draft: false
-alt: "A dark gray rabbit with large ears is shown in a close-up, looking slightly to the side."
+alt: "A black rabbit with its mouth open sits behind a pile of small orange carrots, with the words ERMAHGERD and KERRERTS overlaid in white text at the top and bottom."
 tags:
-- bunny
-- ermagherd
-- kerrerts
-- funny
 - rabbit
+- carrots
+- internet-speak
+- meme
+- black-rabbit
+- food
 ---

@@ -2,11 +2,12 @@
 title: "Dude says wtf"
 date: 2020-03-28T07:53:45-04:00
 draft: false
-alt: "A middle-aged man with long, wavy hair looks directly at the viewer with a bewildered and serious expression."
+alt: "A man with long blond hair and a beard wearing a patterned sweater sits at a table with a drink, looking directly at the camera with a skeptical expression, with the caption 'What the fuck are you talking about?' overlaid at the bottom."
 tags:
+- jeff bridges
+- the big lebowski
+- dubious
 - confused
-- disappointed
-- actor
-- serious
-- reaction
+- movie meme
+- long hair
 ---

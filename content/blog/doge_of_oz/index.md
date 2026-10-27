@@ -2,12 +2,12 @@
 title: "Doge of oz"
 date: 2020-03-28T07:53:45-04:00
 draft: false
-alt: "A person is looking at a television screen displaying a picture of a wolf-like dog with text overlays that read 'such breeze' and 'very scare'."
+alt: "A sepia-toned image shows a person sitting at a desk facing a large screen displaying a doge meme with the words such breeze, very scare, wow, and so flying."
 tags:
-- dog
+- doge
 - meme
-- funny
-- breeze
-- scare
-- awkward
+- sepia
+- vintage
+- humor
+- cheese
 ---

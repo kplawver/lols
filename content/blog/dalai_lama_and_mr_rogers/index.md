@@ -2,11 +2,12 @@
 title: "Dalai lama and mr rogers"
 date: 2020-03-28T07:53:39-04:00
 draft: false
-alt: "Two older men in suits and traditional robes stand side-by-side and smile at the camera."
+alt: "A man in maroon and yellow monastic robes shakes hands with a man in a dark suit and tie, both smiling in an indoor setting with a vanity mirror and lights in the background."
 tags:
-- two men
-- smiling
+- dalai lama
+- handshake
+- monk
 - formal wear
-- older men
-- portrait
+- meeting
+- vintage photo
 ---

@@ -2,11 +2,12 @@
 title: "Dumblin kevin"
 date: 2020-03-28T07:53:46-04:00
 draft: false
-alt: "A man with a long white beard and glasses, dressed in robes, points dramatically at the viewer with a humorous expression."
+alt: "A man dressed as Gandalf with a long white beard and wizard's hat points directly at the viewer with one hand while holding the other open, with the text 'EVERY DAY I'M DUMBLIN'' displayed above him."
 tags:
-- dumbledore
+- gandalf
+- lotr
 - wizard
-- funny
-- magic
-- harry potter
+- pointing
+- meme
+- humor
 ---

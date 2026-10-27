@@ -2,11 +2,12 @@
 title: "Drunk baby airplane"
 date: 2020-03-28T07:53:37-04:00
 draft: false
-alt: "A baby with a shocked expression is sitting next to a glass of beer, with a red and white patterned blanket nearby."
+alt: "A baby in a dark cardigan sits at a table next to a tall glass of beer, with white text overlaid that reads I SHIT YOU NOT and THE AIRPLANE WAS COMING RIGHT FOR MY MOUTH."
 tags:
-- funny
+- baby
+- beer
 - meme
+- funny
 - airplane
-- shocked
-- humor
+- zipmemes
 ---

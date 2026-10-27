@@ -2,11 +2,12 @@
 title: "Ermahgerd flerp flerps"
 date: 2020-03-28T07:54:16-04:00
 draft: false
-alt: "A woman with curly hair is holding a pair of colorful flip-flops and has a surprised expression."
+alt: "A young girl with pigtails and an excited expression holds a bundle of colorful flip-flops, with the words 'ERMAHGERD' at the top and 'FLERP FLERPS' at the bottom."
 tags:
-- flerp
-- ermagherd
-- funny
-- silly
-- cartoonish
+- ermahgerd
+- fledermaus
+- meme
+- flip-flops
+- excitement
+- vintage-photo
 ---

@@ -2,11 +2,12 @@
 title: "Eye brows"
 date: 2020-03-28T07:54:27-04:00
 draft: false
-alt: "A person with a surprised expression is shown with the text 'I DON'T NORMALLY SURF THE INTERNET' above them."
+alt: "A woman in a red sweater and headscarf smiles at the camera in a market setting, with white text overlaid that reads 'I DON'T NORMALLY SURF THE INTERNET BUT WHEN I DO, EYE BROWS'."
 tags:
-- surfing the internet
-- funny
 - meme
+- funny
 - internet humor
-- awkward
+- woman
+- market
+- sarcastic
 ---

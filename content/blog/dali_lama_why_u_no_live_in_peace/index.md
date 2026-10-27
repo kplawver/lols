@@ -2,11 +2,12 @@
 title: "Dali lama why u no live in peace"
 date: 2020-03-28T07:53:37-04:00
 draft: false
-alt: "An older man with a serious expression is looking directly at the viewer while gesturing with both hands."
+alt: "A photo of the Dalai Lama gesturing with his hands, overlaid with the text 'PEOPLE Y U NO LIVE IN PEACE' in white capital letters."
 tags:
-- funny
-- old man
-- disappointed
-- angry
+- dalai lama
 - meme
+- italian
+- peace
+- monk
+- funny
 ---

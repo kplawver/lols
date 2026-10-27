@@ -2,11 +2,12 @@
 title: "Coop waits"
 date: 2020-03-28T07:53:36-04:00
 draft: false
-alt: "A serious-looking man in a suit sits at a large wooden desk, staring directly at the camera."
+alt: "A man in a suit sits at a desk with his hands clasped, looking directly at the camera in a black and white photo. A coffee mug, small statue, and American flag are visible on the desk behind him."
 tags:
-- serious
-- man
-- portrait
-- intense
-- film noir
+- the office
+- darryl hawkins
+- black and white
+- office
+- dramatic
+- humor
 ---

@@ -3,12 +3,13 @@ title: "Did i won"
 date: 2020-03-28T07:53:53-04:00
 draft: false
 alt:
-  did_i_won.jpeg: "A horse wearing a large, elaborate ribbon display on its neck, looking as if it is being judged."
-  did_i_won.jpg: "A brown horse is adorned with a large, colorful rosette ribbon, looking proud after a race."
+  did_i_won.jpeg: "A brown horse's head is covered in numerous red, white, and blue rosette ribbons with long streamers, set against a sandy arena background with a white fence and trees in the distance. The text DID I WON? is overlaid at the top in large white letters."
+  did_i_won.jpg: "A brown horse's head and neck are shown covered in numerous red, white, and blue rosette ribbons, with the text 'DID I WON?' overlaid at the top."
 tags:
 - horse
-- race
-- winning
-- humor
-- competition
+- ribbons
+- show
+- memes
+- grammar fail
+- did i won
 ---

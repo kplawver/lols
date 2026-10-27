@@ -2,11 +2,12 @@
 title: "Bladvass over here"
 date: 2020-03-28T07:53:45-04:00
 draft: false
-alt: "A cartoon drawing of a man with a surprised expression, surrounded by a picture of a sale advertisement."
+alt: "A photo of an IKEA price tag for a bedspread named BLADVA$S at $9.99, paired with a cartoon of a man with a mustache raising his hands and saying, Watch out, we got a bladvass over here."
 tags:
-- dad humor
-- funny
-- man
+- ikea
 - bladvass
 - meme
+- price drop
+- humor
+- store shelf
 ---

@@ -2,11 +2,12 @@
 title: "Everyday im hubblin"
 date: 2020-03-28T07:54:24-04:00
 draft: false
-alt: "A satellite is shown in the blackness of space against the backdrop of Earth's curved atmosphere."
+alt: "A satellite with solar panels floats in space above the curved blue surface of Earth, with the text EVERYDAY at the top and I'M HUBBLIN' at the bottom."
 tags:
-- hubbles
+- hubbins
 - space
-- funny
+- satellite
+- pun
 - meme
-- nasa
+- earth
 ---

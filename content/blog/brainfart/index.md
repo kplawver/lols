@@ -2,11 +2,11 @@
 title: "Brainfart"
 date: 2020-03-28T07:53:47-04:00
 draft: false
-alt: "A pink, stylized illustration of a human brain against a teal background."
+alt: "A pink cartoon brain with black outlines is centered on a solid teal background."
 tags:
 - brain
-- thinking
-- overthinking
-- mental
-- abstract
+- pink
+- cartoon
+- illustration
+- minimalist
 ---

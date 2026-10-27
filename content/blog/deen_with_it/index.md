@@ -2,11 +2,12 @@
 title: "Deen with it"
 date: 2020-03-28T07:53:40-04:00
 draft: false
-alt: "A middle-aged woman with gray hair is standing in a bright kitchen, smiling at the camera while leaning over a sink."
+alt: "A smiling older woman with short gray hair stands in a kitchen wearing a peach shirt, holding a large knife over a cutting board with a halved lemon and a whole lemon."
 tags:
-- middle aged woman
+- woman
+- cooking
 - kitchen
+- lemon
+- knife
 - smiling
-- domestic
-- housewife
 ---

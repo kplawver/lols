@@ -2,11 +2,12 @@
 title: "Alleeeez cuisine"
 date: 2020-03-28T07:53:51-04:00
 draft: false
-alt: "A close-up of an animated male character with spiky black hair and a red outfit, mouth wide open as if shouting, with a small dark object near his face."
+alt: "A man with dark hair and a red collar is shown with his mouth wide open in a dramatic expression, holding a dark object near his face."
 tags:
-- goku
-- dragon ball
-- anime
-- shouting
-- retro anime
+- meme
+- dramatic
+- screaming
+- villain
+- 90s tv
+- dramatic flair
 ---

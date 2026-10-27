@@ -2,11 +2,12 @@
 title: "Disco thrustin grands"
 date: 2020-03-28T07:53:47-04:00
 draft: false
-alt: "Two people in 70s attire are posing in front of a textured brown backdrop, evoking a disco atmosphere."
+alt: "A man and a woman in 1970s attire are dancing on a wooden stage with a red light in the background and the word 'Disco' displayed in the corner."
 tags:
 - disco
-- 70s
 - dancing
 - vintage
-- fun
+- retro
+- couple
+- 1970s
 ---

@@ -2,11 +2,12 @@
 title: "Butt dorothy"
 date: 2020-03-28T07:53:53-04:00
 draft: false
-alt: "A group of people in various costumes, including a ghost, a monster, and a person in a pumpkin costume, are standing together."
+alt: "Four people are standing in holes cut into a painted mural of the Wizard of Oz characters, with their faces visible through the openings in the scarecrow, tin man, Dorothy, and lion figures."
 tags:
-- halloween
-- costumes
-- funny
-- scary
-- pumpkin
+- wizard of oz
+- costume
+- interactive art
+- humor
+- face hole
+- scarecrow
 ---

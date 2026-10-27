@@ -2,11 +2,12 @@
 title: "Bachmann no like reading"
 date: 2020-03-28T07:53:43-04:00
 draft: false
-alt: "A woman with a surprised expression looks at a document that appears to be the preamble of the US Constitution."
+alt: "A split image showing the opening text of the US Constitution on top and a smiling woman with long brown hair below, with the caption 'TOO LONG DIDN'T READ' overlaid at the bottom."
 tags:
-- funny
 - meme
+- politics
+- us constitution
+- woman
+- humor
 - reading
-- disappointment
-- american history
 ---

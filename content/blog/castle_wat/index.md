@@ -2,10 +2,11 @@
 title: "Castle wat"
 date: 2020-03-28T07:54:31-04:00
 draft: false
-alt: "A middle-aged man with brown hair looks upward with a concerned expression in a dimly lit interior."
+alt: "A man with short brown hair wearing a dark button-up shirt looks forward with a surprised expression in a dimly lit indoor setting with warm background lights."
 tags:
-- actor
-- serious
-- concerned
-- movie scene
+- tobey maguire
+- spider-man
+- surprised
+- man
+- indoor
 ---

@@ -2,11 +2,12 @@
 title: "Class warfare"
 date: 2020-03-28T07:53:50-04:00
 draft: false
-alt: "A cartoon drawing of a large tank dominating the frame, with a small figure running away from it."
+alt: "A cartoon-style illustration shows a small figure shouting at a large military tank, with text above reading 'YOU, THERE!! CEASE THAT CLASS WARFARE AT ONCE!!!' in bold red and black letters."
 tags:
-- tank
-- warfare
-- humor
+- satire
+- political cartoon
 - military
-- battle
+- protest
+- class warfare
+- humor
 ---

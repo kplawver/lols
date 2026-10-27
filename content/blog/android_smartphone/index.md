@@ -2,9 +2,12 @@
 title: "Android Smartphone"
 date: 2020-03-28T07:53:35-04:00
 draft: false
-alt: "Two men are looking at a smartphone screen, with text overlaying the image about the phone's features."
+alt: "Three Star Trek characters are shown with the central android character holding a smartphone with a glowing screen. Text above reads 'I'm calling from my new Android smartphone' and text below reads 'Yes, it even includes unlimited Data'."
 tags:
 - star trek
+- geek humor
+- android
 - data
-- dog phone
+- meme
+- technology
 ---

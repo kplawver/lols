@@ -2,11 +2,12 @@
 title: "Dog says your approval is not needed"
 date: 2020-03-28T07:53:36-04:00
 draft: false
-alt: "A fluffy light brown dog sits looking thoughtful with a serious expression against a blue background."
+alt: "A small fluffy dog wearing oversized round glasses sits against a blue background with white text above it that reads I AM WHO I AM. YOUR APPROVAL IS NOT NEEDED."
 tags:
-- cute
 - dog
-- funny
-- existential
-- philosophy
+- glasses
+- self-confidence
+- humor
+- shih tzu
+- meme
 ---

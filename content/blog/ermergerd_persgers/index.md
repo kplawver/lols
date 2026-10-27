@@ -2,11 +2,12 @@
 title: "Ermergerd persgers"
 date: 2020-03-28T07:54:23-04:00
 draft: false
-alt: "A young girl with pigtails is holding several books and has a wide-open mouth as if yelling."
+alt: "A young girl with pigtails holds several Goosebumps books and makes an excited face, with Danish text overlaid at the top and bottom of the image."
 tags:
 - meme
-- funny
-- reaction
+- goosebumps
 - child
-- screaming
+- excitement
+- books
+- danish
 ---

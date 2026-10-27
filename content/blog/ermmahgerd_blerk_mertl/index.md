@@ -2,11 +2,12 @@
 title: "Ermmahgerd blerk mertl"
 date: 2020-03-28T07:54:20-04:00
 draft: false
-alt: "A person with wild hair is screaming intensely, looking manic and distressed."
+alt: "A black and white photo of a person with goth-style makeup and spiked wristbands, making a dramatic face and gesture, with the text 'ERMAHGERD' at the top and 'BLERK MERTL' at the bottom."
 tags:
-- screaming
-- horror
-- funny
-- creepy
 - meme
+- ermahgerd
+- bleerk
+- goth
+- spiked wristband
+- humor
 ---

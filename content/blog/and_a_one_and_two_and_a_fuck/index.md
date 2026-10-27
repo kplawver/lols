@@ -2,8 +2,11 @@
 title: "And a one and two and a fuck"
 date: 2020-03-28T07:53:35-04:00
 draft: false
-alt: "A cat is sitting on a patterned surface, looking directly at the camera with a surprised expression."
+alt: "A black and white cat stands on a patterned carpet with the text AND A ONE displayed in white capital letters at the bottom."
 tags:
-- cats
-- accident
+- cat
+- meme
+- and a one
+- victory
+- funny
 ---

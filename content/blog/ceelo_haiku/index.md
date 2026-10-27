@@ -2,11 +2,11 @@
 title: "Ceelo haiku"
 date: 2020-03-28T07:53:50-04:00
 draft: false
-alt: "A smiling, bald man wearing a light-colored suit stands outdoors with a humorous caption above him."
+alt: "A man in a white suit and sunglasses smiles while wearing a gold watch, with white text overlaid on the image that reads 'I SEE YOU DRIVING 'ROUND TOWN WITH THE GIRL I LOVE AND I'M LIKE, HAIKU.'"
 tags:
-- funny
-- dad humor
-- dad joke
-- dad life
+- meme
+- haiku
+- driving
 - comedy
+- text overlay
 ---

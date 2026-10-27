@@ -2,11 +2,11 @@
 title: "Effrolled"
 date: 2020-03-28T07:53:15-04:00
 draft: false
-alt: "A man stands awkwardly in front of a patterned, light-colored background, looking slightly uncomfortable."
+alt: "A man in a black jacket and striped shirt stands in front of a microphone with a patterned background, appearing to sing or perform."
 tags:
-- awkward
-- man
-- uncomfortable
-- social anxiety
-- meme
+- michael jackson
+- thriller
+- vintage
+- music video
+- retro
 ---

@@ -2,11 +2,12 @@
 title: "Eff this and that"
 date: 2020-03-28T07:53:00-04:00
 draft: false
-alt: "A middle-aged man in a white shirt sits at a desk in an office, looking perplexed with his hands clasped in front of him."
+alt: "A man in a white shirt and tie sits at a desk with a vintage computer and papers, in a room with a window and brick wall."
 tags:
-- man
 - office
-- confused
-- business
-- awkward
+- man
+- computer
+- retro
+- workplace
+- vintage
 ---

@@ -2,11 +2,12 @@
 title: "Force push that music"
 date: 2020-03-28T07:54:27-04:00
 draft: false
-alt: "A person in dark clothing is looking upwards with a dramatic expression, illuminated by a bright light source from below."
+alt: "A man in a brown robe holds a glowing blue lightsaber while looking upward, with a blurred figure in the background."
 tags:
-- dramatic
-- intense
-- actor
-- movie scene
-- serious
+- star wars
+- obi-wan kenobi
+- lightsaber
+- action
+- gif
+- duel
 ---

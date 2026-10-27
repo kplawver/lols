@@ -2,11 +2,11 @@
 title: "Date night for gonzo"
 date: 2020-03-28T07:53:36-04:00
 draft: false
-alt: "A small purple monster with a worried expression looks into a full-length mirror."
+alt: "A purple cartoon character with a long nose and wild hair stands in front of a full-length mirror, looking at its reflection with a surprised expression."
 tags:
-- purple monster
-- mirror
-- surprised
 - cartoon
+- mirror
+- self-reflection
 - humor
+- character
 ---

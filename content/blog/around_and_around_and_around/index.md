@@ -2,8 +2,12 @@
 title: "Around and around and around"
 date: 2020-03-28T07:53:41-04:00
 draft: false
-alt: "A large, metallic ring is centered in the frame against a hazy, outdoor landscape."
+alt: "A large circular concrete structure stands upright in a barren desert landscape with distant hills visible through its opening."
 tags:
-- loop
-- skateboards
+- minimalist
+- desert
+- concrete
+- abstract
+- black and white
+- surreal
 ---

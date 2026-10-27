@@ -2,11 +2,12 @@
 title: "Cat collapse"
 date: 2020-03-28T07:53:38-04:00
 draft: false
-alt: "Several cats are lounging comfortably on a light-colored sofa in a well-lit room."
+alt: "Two fluffy white cats are sitting close together on a beige sofa with a leopard print blanket, next to a stuffed animal and a cat sitting on the backrest, with a box of cat food in the foreground."
 tags:
-- couch
 - cats
-- funny
-- loafing
+- cuddling
+- sofa
+- cozy
+- pets
 - domestic
 ---

@@ -2,11 +2,11 @@
 title: "Cat trance"
 date: 2020-03-28T07:53:47-04:00
 draft: false
-alt: "A fluffy white and gray cat with wide, slightly bewildered eyes looks directly at the camera."
+alt: "A white and gray kitten with wide green eyes and a pink nose looks to the side with a startled expression inside a pink room."
 tags:
 - cat
-- confused
-- cute
+- wide-eyed
+- shocked
+- kitten
 - funny
-- wide eyes
 ---

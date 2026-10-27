@@ -2,11 +2,12 @@
 title: "Fly me closer"
 date: 2020-03-28T07:54:31-04:00
 draft: false
-alt: "A vintage biplane flies through the sky with a pilot visible in the cockpit, overlaid with the text 'FLY ME CLOSER'."
+alt: "A black-and-white photo of a WWII fighter plane with a shark mouth painted on the nose, sitting on a runway. A person in a helmet is sitting on the wing holding a sword. White text at the top reads 'FLY ME CLOSER' and at the bottom reads 'I WANT TO HIT THEM WITH MY SWORD'."
 tags:
-- fly me closer
+- star wars
+- memes
+- pog
 - airplane
-- war
+- sword
 - humor
-- vintage
 ---

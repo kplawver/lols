@@ -2,11 +2,11 @@
 title: "Erhmagerd perngwens"
 date: 2020-03-28T07:54:15-04:00
 draft: false
-alt: "A close-up of a seal with a wide-open mouth, looking directly at the viewer on a rocky beach."
+alt: "A seal with its mouth open in the foreground with a group of penguins standing on a rocky beach in the background, with the text ERMAHGERD and PERNGWENS overlaid on the image."
 tags:
+- ermahgerd
+- penguins
 - seal
-- funny
-- surprised
-- animal
-- comedy
+- meme
+- funny animals
 ---

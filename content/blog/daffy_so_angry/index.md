@@ -2,11 +2,12 @@
 title: "Daffy so angry"
 date: 2020-03-28T07:53:40-04:00
 draft: false
-alt: "A small orange cartoon bird with large eyes is standing in front of a large, colorful, abstract landscape."
+alt: "A black cartoon bird with an orange beak stands with hands on hips against a stylized background of blue sky, white snow, and red rock formations."
 tags:
-- orange
-- funny
+- tweety bird
+- looney tunes
+- warner bros
 - cartoon
-- bird
-- surprised
+- angry bird
+- classic animation
 ---

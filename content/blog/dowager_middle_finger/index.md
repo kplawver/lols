@@ -2,11 +2,12 @@
 title: "Dowager middle finger"
 date: 2020-03-28T07:53:47-04:00
 draft: false
-alt: "A painted portrait of an older man wearing a wide-brimmed hat and a high-collared shirt, looking directly at the viewer."
+alt: "A painted portrait of a woman wearing a wide-brimmed hat and a high-collared blouse, pointing forward with a serious expression against a muted brown background."
 tags:
 - portrait
-- old man
+- woman
+- hat
+- pointing
 - dramatic
-- serious
-- vintage
+- painting
 ---
