@@ -48,6 +48,9 @@ const eleventyNavigation = {
 
 	function markSelected(url) {
 		list.querySelectorAll("a").forEach(a => a.classList.toggle("dumb-selected", new URL(a.href).pathname === url));
+		// Scroll the sidebar list so the selected post is visible
+		// (dumb-list.njk defines the helper; runs on load there too).
+		window.dumbListScrollToSelected?.();
 	}
 
 	function renderNav(url) {
