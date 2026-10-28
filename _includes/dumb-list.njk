@@ -4,3 +4,18 @@
 	<li><a href="{{ post.url }}" data-post-link{% if post.url == page.url %} class="dumb-selected" aria-current="page"{% endif %}>{{ post.data.title }}</a></li>
 	{%- endfor %}
 </ul>
+<script>
+// Keep the selected post visible in the scrolling list. Runs here for
+// standalone pages (server-rendered dumb-selected); the home page SPA
+// calls it via markSelected after switching selection. Direct scrollTop,
+// not scrollIntoView, so the page itself never moves.
+window.dumbListScrollToSelected = () => {
+	const sel = document.querySelector(".dumb-list-items a.dumb-selected");
+	const scroller = sel && sel.closest(".dumb-list");
+	if (!sel || !scroller) return;
+	const cRect = scroller.getBoundingClientRect();
+	const sRect = sel.getBoundingClientRect();
+	scroller.scrollTop += sRect.top - cRect.top - (scroller.clientHeight - sRect.height) / 2;
+};
+window.dumbListScrollToSelected();
+</script>
