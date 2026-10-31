@@ -7,6 +7,6 @@ tags:
 - meme
 - survivor
 - crow
-- self-deprecating
+- self deprecating
 - humor
 ---
